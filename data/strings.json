@@ -1,0 +1,29 @@
+{
+  "_comment": "UI string dictionary for the EN/ES toggle (see context/LanguageContext.js, added in Phase 2). Movie review text lives in movies.json, not here.",
+  "en": {
+    "siteName": "FerFrights",
+    "navHome": "Home",
+    "navAbout": "About",
+    "filterAll": "All",
+    "backToAllMovies": "Back to all movies",
+    "contactName": "Name",
+    "contactEmail": "Email",
+    "contactMessage": "Message",
+    "contactSubmit": "Send",
+    "contactSuccess": "Thanks! I'll get back to you soon.",
+    "contactError": "Something went wrong — please try again."
+  },
+  "es": {
+    "siteName": "FerFrights",
+    "navHome": "Inicio",
+    "navAbout": "Sobre mí",
+    "filterAll": "Todas",
+    "backToAllMovies": "Volver a todas las películas",
+    "contactName": "Nombre",
+    "contactEmail": "Correo electrónico",
+    "contactMessage": "Mensaje",
+    "contactSubmit": "Enviar",
+    "contactSuccess": "¡Gracias! Te responderé pronto.",
+    "contactError": "Algo salió mal — inténtalo de nuevo."
+  }
+}

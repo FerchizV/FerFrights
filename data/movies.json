@@ -1,0 +1,16 @@
+[
+  {
+    "_comment": "This is an example entry. See HOW_TO_ADD_MOVIES.md before editing this file. Delete this entry once real movies are added in Phase 1.",
+    "id": "the-shining",
+    "title": "The Shining",
+    "year": 1980,
+    "runtime": "144 min",
+    "tags": ["Psychological / Thriller", "Supernatural / Paranormal"],
+    "posterImage": "/images/the-shining-poster.jpg",
+    "stillImage": "/images/the-shining-still.jpg",
+    "review": {
+      "en": "English review text here...",
+      "es": "Spanish review text here..."
+    }
+  }
+]
