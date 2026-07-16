@@ -1,6 +1,6 @@
 # Build Plan: FerFrights
 
-**Status:** Approved, in progress. Phase 0 underway.
+**Status:** Approved, in progress. Phases 0–2 complete; Phase 2.5 (design override) underway before Phase 3.
 
 **Project location:** `C:\Users\ferch\Documents\Coding\FerFrights` (local disk).
 
@@ -14,7 +14,9 @@ This plan turns `PRD_Fernandas_Horror_Recs.md` into a concrete, phased build seq
 
 | Decision | Resolution |
 |---|---|
-| Homepage tile style | **Card with tags** — icon + title + genre tag pills inside a bounded card (not literal borderless desktop icons) |
+| Homepage tile style | ~~Card with tags — icon + title + genre tag pills inside a bounded card~~ **Superseded 2026-07-15**: bare, borderless icon + title (true Woset-style), genre tags hidden by default and revealed on hover only — see Phase 2.5 |
+| Color palette | ~~Near-black background, blood-red accent~~ **Superseded 2026-07-15**: warm cream background, near-black text, red kept only as an accent (links, active tags) — see Phase 2.5 and PRD §5.2 |
+| Hover treatment | ~~Red glow~~ **Superseded 2026-07-15**: subtle neutral shadow lift, no color |
 | Ratings scope | **Show all available** — IMDb, Rotten Tomatoes, and Metacritic when OMDB returns them (same free API call already covers this); section still fully hidden if no data at all |
 | About/Why Horror bio | **Real copy provided**, stored below — no placeholder needed |
 | Top 3 current favorites | Obsession, Weapons, Talk to Me |
@@ -106,6 +108,18 @@ DEPLOYMENT.md
 4. Animations: card hover = `hover:scale-105` + glow shadow (Tailwind utilities, no JS); review entry = `animate-fade-in-up` CSS keyframe; filter reflow = `transition-all` (no FLIP library — an intentional simplicity trade-off).
 
 **Verify:** EN/ES toggle changes nav + tags + review body instantly and persists on refresh; multi-tag filtering updates instantly with no reload; browser Back after filtering preserves filters; tag click from a review lands on a pre-filtered homepage.
+
+## Phase 2.5 — Design override: cream palette + borderless tiles
+
+After seeing Phase 1/2 built out, Fernanda decided the near-black/blood-red look was too heavy and asked for something closer to the light, cream aesthetic of the woset.world reference, plus tiles that are bare icon + name (no bounding card) with genre tags hidden until hover. See PRD §4.1/§5.2/§5.4 for the updated spec (original dark palette kept there, struck through, for reference).
+
+1. `styles/globals.css` — swap the CSS custom properties: `--background` → warm cream (`#F3ECDF`), new `--surface` for hero-image containers and (later) form fields (`#E9E0CE`), `--foreground` → near-black (`#141414`). `--accent`/`--accent-glow` (blood red) unchanged — now used for links, active tag state, and small accents against the light background rather than as the page background. `--tag-bg`/`--tag-text` unchanged (dark red pill, off-white text — already high contrast regardless of page background).
+2. Replace the `.glow-red` hover class with a neutral shadow-lift treatment (no color) — rename to something that describes what it does now, not red.
+3. Regenerate the 33 placeholder icon SVGs (`public/images/icons/`) with a transparent background instead of the baked-in `#111111` card fill, so they sit directly on the page like true Woset icons; re-tint the glyph to the red accent.
+4. `MovieCard.js` — remove the bounded `bg-surface` card container; icon + title sit directly on the page background. Genre tag pills move inside a wrapper that's hidden by default (`opacity-0`) and revealed with the rest of the hover state (`group-hover:opacity-100`), consistent with the "hover-only tags" decision.
+5. Spot-check contrast: near-black text on cream easily clears WCAG AA (easier than the old off-white-on-near-black), and the red accent against cream still needs to clear AA for link/tag text — verify, don't just assume.
+
+**Verify:** `npm run build` + `npm run lint` clean; homepage renders bare icons on a cream background with tags appearing only on hover; movie review pages, Nav, and all interactive states (links, active tag, X-close) read correctly against the new palette; no leftover references to the old dark/glow treatment.
 
 ## Phase 3 — About page, contact form, ratings, deployment
 

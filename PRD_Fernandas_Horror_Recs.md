@@ -44,9 +44,10 @@ The site has **three pages**:
 ### 4.1 Homepage
 
 **Layout:**
-- A grid of movie cards, inspired by the icon/poster grid at [woset.world](https://woset.world/pages/world)
-- Each card shows: a custom icon (not a movie poster), movie title, and genre tags
-- Cards are clean and minimal — no long text previews on the homepage
+- A grid of bare, borderless icon tiles, inspired by the icon grid at [woset.world](https://woset.world/pages/world) — no bounding card box, the icon sits directly on the page background
+- Each tile shows: a custom icon (not a movie poster) and the movie title, always visible
+- Genre tags for that movie are **hidden by default and reveal on hover** (desktop) — kept out of the default view to match the Woset reference's minimal, text-free grid
+- No long text previews on the homepage
 
 **Filter System:**
 - Filter bar at the top of the grid (or as a sidebar on desktop)
@@ -62,8 +63,8 @@ The site has **three pages**:
 - Filtering happens instantly on the page with no page reload
 
 **Interaction:**
-- Clicking a card navigates to that film's full review page
-- Card hover state: subtle animation (e.g. slight scale, glow, or color shift — consistent with the horror aesthetic)
+- Clicking a tile navigates to that film's full review page
+- Hover state: genre tags fade in below the title, plus a subtle shadow lift on the icon — no colored glow
 
 **Language toggle:**
 - A visible EN / ES toggle in the navigation bar
@@ -124,6 +125,20 @@ Each movie has its own dedicated page. Layout inspired by [rogerebert.com](https
 
 ### 5.2 Color Palette
 
+**Revised 2026-07-15** — overrides the original dark palette below. Fernanda decided the near-black/blood-red direction felt too heavy after seeing Phase 1 built out, and wants something closer to the light, cream aesthetic of the [woset.world](https://woset.world/pages/world) reference instead. The "dramatic classic horror poster" *feel* is now carried by the red accent and serif type rather than a dark background.
+
+| Role | Color |
+|---|---|
+| Background | Warm cream (e.g. `#F3ECDF`) |
+| Surface (hero image containers, form fields) | Slightly deeper cream (e.g. `#E9E0CE`) |
+| Text | Near-black (e.g. `#141414`) |
+| Primary accent | Deep blood red (e.g. `#8B0000` / `#CC0000`) — unchanged, now used for links, active tags, and small accents against the light background |
+| Hover / highlight | Subtle neutral shadow lift — **not** a colored glow |
+| Tags | Off-white text on dark red pill/badge — unchanged, hidden by default on homepage tiles, revealed on hover |
+
+<details>
+<summary>Original palette (superseded)</summary>
+
 | Role | Color |
 |---|---|
 | Background | Near-black (e.g. `#0a0a0a` or `#111111`) |
@@ -131,6 +146,8 @@ Each movie has its own dedicated page. Layout inspired by [rogerebert.com](https
 | Secondary / text | Off-white / warm white (e.g. `#F5F0EB`) |
 | Hover / highlight | Brighter red or desaturated red glow |
 | Tags | Off-white text on dark red pill/badge |
+
+</details>
 
 ### 5.3 Typography
 
@@ -140,7 +157,7 @@ Each movie has its own dedicated page. Layout inspired by [rogerebert.com](https
 
 ### 5.4 Animations
 
-- Card hover: subtle scale + red glow
+- Tile hover: subtle shadow lift (neutral, not colored) + genre tags fade in below the title
 - Movie page entry: slide-up or fade-in transition
 - Filter changes: smooth instant reflow (no jarring jumps)
 - Keep animations tasteful — they should feel cinematic, not distracting

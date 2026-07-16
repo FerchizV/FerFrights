@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --surface: #111111;
-  --foreground: #f5f0eb;
+  --background: #f3ecdf;
+  --surface: #e9e0ce;
+  --foreground: #141414;
   --accent: #8b0000;
   --accent-glow: #cc0000;
   --tag-bg: #3d0000;
@@ -49,14 +49,14 @@ h4 {
   font-family: var(--font-heading), Georgia, serif;
 }
 
-.glow-red {
-  box-shadow: 0 0 0 rgba(204, 0, 0, 0);
+.hover-lift {
+  box-shadow: 0 0 0 rgba(20, 20, 20, 0);
   transition:
     box-shadow 0.25s ease,
     transform 0.25s ease;
 }
 
-.glow-red:hover {
-  box-shadow: 0 0 24px rgba(204, 0, 0, 0.45);
+.hover-lift:hover {
+  box-shadow: 0 10px 24px rgba(20, 20, 20, 0.16);
   transform: scale(1.03);
 }

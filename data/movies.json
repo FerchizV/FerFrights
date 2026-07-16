@@ -1,16 +1,431 @@
 [
   {
-    "_comment": "This is an example entry. See HOW_TO_ADD_MOVIES.md before editing this file. Delete this entry once real movies are added in Phase 1.",
-    "id": "the-shining",
-    "title": "The Shining",
-    "year": 1980,
-    "runtime": "144 min",
+    "id": "smile-2",
+    "title": "Smile 2",
+    "year": 2024,
+    "runtime": "132 min",
     "tags": ["Psychological / Thriller", "Supernatural / Paranormal"],
-    "posterImage": "/images/the-shining-poster.jpg",
-    "stillImage": "/images/the-shining-still.jpg",
+    "posterImage": "/images/icons/smile-2.svg",
+    "stillImage": "/images/icons/smile-2.svg",
     "review": {
-      "en": "English review text here...",
-      "es": "Spanish review text here..."
+      "en": "After being disappointed by the first Smile, I made zero effort to catch this one in theaters. Then one night the itch to watch something scary hit, and I gave Smile 2 a shot at home — big mistake waiting so long. Naomi Scott has become a true scream queen with an incredible performance, and the story, visuals, music, and camera work all come together into a masterclass in how a franchise rises from the ashes. It follows a pop star confronting her fears, and by the end you won't know what to believe.",
+      "es": "Después de decepcionarme con la primera Smile, no hice ningún esfuerzo por ir a ver esta secuela al cine. Luego, una noche en la que me dieron ganas de ver algo de miedo en casa, le di una oportunidad a Smile 2 — un error haber esperado tanto. Naomi Scott se ha convertido en una verdadera scream queen con una actuación increíble, y la historia, los visuales, la música y el trabajo de cámara se combinan en una clase magistral de cómo una franquicia puede resurgir de las cenizas. Sigue a una estrella pop enfrentando sus miedos, y para el final no sabrás qué creer."
+    }
+  },
+  {
+    "id": "the-substance",
+    "title": "The Substance",
+    "year": 2024,
+    "runtime": "141 min",
+    "tags": ["Slasher / Gore", "Psychological / Thriller"],
+    "posterImage": "/images/icons/the-substance.svg",
+    "stillImage": "/images/icons/the-substance.svg",
+    "review": {
+      "en": "This movie was heavily nominated at the last Oscars, and for good reason. Incredible performances from both Demi Moore and Margaret Qualley make it mesmerizing and striking — a body horror film that openly criticizes Hollywood and forces an uncomfortable reflection on ageism. The cinematography, story, sound, acting, and visual effects are all amazing; it wants to look and feel grotesque, and it achieves that admirably. Even if body horror isn't really your thing (it's not really mine either), give this one a try — watching through the gaps between your fingers still beats not watching it at all.",
+      "es": "Esta película tuvo muchísimas nominaciones en los últimos Oscars, y con razón. Las actuaciones de Demi Moore y Margaret Qualley son increíbles y hacen que la película sea hipnotizante e impactante — un body horror que critica abiertamente a Hollywood y nos obliga a reflexionar sobre el edadismo. La cinematografía, la historia, el sonido, las actuaciones y los efectos visuales son excelentes; busca verse y sentirse grotesca, y lo logra admirablemente. Aunque el body horror no sea lo tuyo (tampoco es lo mío), dale una oportunidad — verla entre los dedos de tu mano sigue siendo mejor que no verla."
+    }
+  },
+  {
+    "id": "oddity",
+    "title": "Oddity",
+    "year": 2024,
+    "runtime": "98 min",
+    "tags": ["Supernatural / Paranormal"],
+    "posterImage": "/images/icons/oddity.svg",
+    "stillImage": "/images/icons/oddity.svg",
+    "review": {
+      "en": "A supernatural movie that builds up to a fantastic overall horror experience. It had been a while since a jumpscare actually spooked me, and this one did it — and in a tasteful way, which we love. Spooky, suspenseful feelings run through the whole film, and it's a tale of grief and revenge. The pacing can feel slow at times, but it's worth patiently sticking with it until the end.",
+      "es": "Una película sobrenatural que se va construyendo hasta convertirse en una experiencia de terror fantástica. Hacía tiempo que un jumpscare no me asustaba de verdad, y este lo logró — y de una manera con buen gusto, algo que amamos. Toda la película tiene esa sensación espeluznante y suspensiva, y es una historia de duelo y venganza. El ritmo puede sentirse lento en algunos momentos, pero vale la pena tener paciencia hasta el final."
+    }
+  },
+  {
+    "id": "nosferatu-2024",
+    "title": "Nosferatu",
+    "year": 2024,
+    "runtime": "132 min",
+    "tags": ["Supernatural / Paranormal"],
+    "posterImage": "/images/icons/nosferatu-2024.svg",
+    "stillImage": "/images/icons/nosferatu-2024.svg",
+    "review": {
+      "en": "Who doesn't love a story about the OG Dracula? This movie knows exactly what it's doing with its baroque, goth vibes, and every lead delivers a wonderful performance. The visuals are amazing and the story stays strong from start to finish. If you want something less scary but still amazing, this is it — not a jump-out-of-your-seat film, but a spooky, at times grotesque one that leaves you with chills. It's a tale of female suppression and empowerment woven into Bram Stoker's original story — don't skip this one, it might become a cult favorite.",
+      "es": "¿Quién no ama una historia sobre el Drácula original? Esta película sabe exactamente lo que hace con su estética barroca y gótica, y cada actor principal entrega una actuación maravillosa. Los visuales son impresionantes y la historia se mantiene fuerte de principio a fin. Si buscas algo menos aterrador pero igual de increíble, esta es la película — no es de esas que te hacen saltar del asiento, pero sí es espeluznante y a veces grotesca, dejándote con escalofríos. Es una historia de opresión y empoderamiento femenino entrelazada con la historia original de Bram Stoker — no te la saltes, podría convertirse en una favorita de culto."
+    }
+  },
+  {
+    "id": "talk-to-me",
+    "title": "Talk to Me",
+    "year": 2023,
+    "runtime": "95 min",
+    "tags": ["Supernatural / Paranormal"],
+    "posterImage": "/images/icons/talk-to-me.svg",
+    "stillImage": "/images/icons/talk-to-me.svg",
+    "review": {
+      "en": "I watched Talk to Me in theaters when my only two options were this or a movie I'd been told was bad, so I went in blind. I walked out immensely happy — what a great scary movie. The story is refreshing, the music and editing keep it exciting, and it's an eerie tale about the consequences of playing with a cursed object. Just when you think it's gone far enough, it keeps going. Bonus: it was made by a pair of YouTuber brothers, and their making-of doc made me cry — I want them to keep making scary movies so badly.",
+      "es": "Vi Talk to Me en el cine cuando mis únicas dos opciones eran esta o una película que me habían dicho que era mala, así que entré sin saber nada. Salí inmensamente feliz — qué gran película de miedo. La historia es refrescante, la música y la edición la hacen emocionante, y es una historia inquietante sobre las consecuencias de jugar con un objeto maldito. Justo cuando crees que ya llegó demasiado lejos, sigue yendo más allá. Dato curioso: la hicieron un par de hermanos youtubers, y su detrás de cámaras me hizo llorar — quiero que sigan haciendo películas de miedo por siempre."
+    }
+  },
+  {
+    "id": "train-to-busan",
+    "title": "Train to Busan",
+    "year": 2016,
+    "runtime": "118 min",
+    "tags": ["Zombie / Creature", "International / Foreign Language"],
+    "posterImage": "/images/icons/train-to-busan.svg",
+    "stillImage": "/images/icons/train-to-busan.svg",
+    "review": {
+      "en": "My interest in zombie movies picked up thanks to this one — I'd gone years without watching one, and this film turned me into a genuine zombie fan. It's a story about human relationships and racing for survival amid a zombie apocalypse, with great characters and action sequences that keep you on the edge of your seat the whole time. The movie looks realistic and tasteful — the zombies are scary and nasty, exactly how I'd imagine them in real life. It's a rollercoaster of emotions so good that it pops back into my mind all the time — it's basically my Roman Empire.",
+      "es": "Mi interés en las películas de zombis creció gracias a esta — había pasado años sin ver una, y esta película me convirtió en verdadera fan de los zombis. Es una historia sobre relaciones humanas y la carrera por sobrevivir en medio de un apocalipsis zombi, con grandes personajes y secuencias de acción que te mantienen al borde del asiento todo el tiempo. La película se ve realista y con buen gusto — los zombis dan miedo y asco, exactamente como me los imaginaría en la vida real. Es una montaña rusa de emociones tan buena que se me viene a la mente todo el tiempo — es básicamente mi Imperio Romano."
+    }
+  },
+  {
+    "id": "alien-romulus",
+    "title": "Alien: Romulus",
+    "year": 2024,
+    "runtime": "119 min",
+    "tags": ["Sci-Fi Horror"],
+    "posterImage": "/images/icons/alien-romulus.svg",
+    "stillImage": "/images/icons/alien-romulus.svg",
+    "review": {
+      "en": "Yes, yes, yes. The whole Alien franchise gets mentioned as a great sci-fi/horror series for a reason — great stories, characters, action, and visuals with every entry, and this one proves that watching humans fight an alien race never stops being entertaining. Álvarez gives us a fantastic story full of great action that keeps you glued to the screen. It leans more sci-fi, but it's still full of suspense and scary moments that'll have you gripping your seat, and the visuals at times made me feel like I was inside a video game. If you love space, aliens, a great story, and lots of tension, this one's for you.",
+      "es": "Sí, sí, sí. Toda la franquicia de Alien se menciona como una gran serie de ciencia ficción/terror por una razón — grandes historias, personajes, acción y visuales en cada entrega, y esta prueba que ver a los humanos pelear contra una raza alienígena nunca deja de ser entretenido. Álvarez nos entrega una historia fantástica llena de gran acción que no te deja despegar la vista de la pantalla. Se inclina más hacia la ciencia ficción, pero sigue llena de suspenso y momentos de miedo que te harán aferrarte al asiento, y los visuales en ciertos puntos me hicieron sentir que estaba dentro de un videojuego. Si amas el espacio, los alienígenas, una gran historia y mucha tensión, esta es para ti."
+    }
+  },
+  {
+    "id": "incantation",
+    "title": "Incantation",
+    "year": 2022,
+    "runtime": "111 min",
+    "tags": ["Supernatural / Paranormal", "International / Foreign Language"],
+    "posterImage": "/images/icons/incantation.svg",
+    "stillImage": "/images/icons/incantation.svg",
+    "review": {
+      "en": "A Taiwanese horror film so good that every time I watch it, I end up scared, wanting to turn on every light in the house and avoid looking at the ceiling. It's a story about a cursed mother, her child, and their journey trying to break said curse — a great found-footage tale with chilling visuals and a meditation that stays with you for days after watching. It's a great example of a good paranormal movie, and like many paranormal films, it claims to be loosely based on a real event. It doesn't get talked about enough because it's Taiwanese, but it definitely deserves more recognition.",
+      "es": "Una película de terror taiwanesa tan buena que cada vez que la veo termino asustada, queriendo prender todas las luces de la casa y evitando mirar al techo. Es la historia de una madre maldita, su hija, y su travesía tratando de romper dicha maldición — un gran found-footage con visuales escalofriantes y una meditación que se queda contigo varios días después de verla. Es un excelente ejemplo de una buena película paranormal, y como muchas películas paranormales, dice estar basada libremente en un evento real. No se habla lo suficiente de ella por ser taiwanesa, pero definitivamente merece más reconocimiento."
+    }
+  },
+  {
+    "id": "one-cut-of-the-dead",
+    "title": "One Cut of the Dead",
+    "year": 2017,
+    "runtime": "96 min",
+    "tags": ["Zombie / Creature", "International / Foreign Language"],
+    "posterImage": "/images/icons/one-cut-of-the-dead.svg",
+    "stillImage": "/images/icons/one-cut-of-the-dead.svg",
+    "review": {
+      "en": "This isn't a scary movie per se, but it's a fun, mind-bending horror comedy worth giving a try — best enjoyed with a group of friends or the help of some stupefying substance (or why not both). You have to be patient to get to the great payoff at the end, but if you make it through, you'll be glad you did. It's a hidden gem — not for everyone, but still a pretty cool, unique experience, and there's a reason it has a cult following. I can't say more without spoiling it, so just go have fun.",
+      "es": "No es una película de miedo per se, pero es una comedia de terror divertida y que te hace dar muchas vueltas, y vale la pena darle una oportunidad — mejor disfrutada en grupo de amigos o con la ayuda de alguna sustancia estupefaciente (o por qué no, ambas). Hay que tener paciencia para llegar al gran desenlace del final, pero si lo logras, te alegrarás de haberlo hecho. Es una joya escondida — no es para todos, pero sigue siendo una experiencia única y muy genial, y no por nada tiene un séquito de culto. No puedo decir más sin arruinarla, así que solo ve a divertirte."
+    }
+  },
+  {
+    "id": "when-evil-lurks",
+    "title": "When Evil Lurks",
+    "year": 2023,
+    "runtime": "99 min",
+    "tags": ["Supernatural / Paranormal", "Slasher / Gore", "International / Foreign Language"],
+    "posterImage": "/images/icons/when-evil-lurks.svg",
+    "stillImage": "/images/icons/when-evil-lurks.svg",
+    "review": {
+      "en": "A new, refreshing, gory story about evil's control over humans — a shockingly well-made film that will leave you startled. If you're tired of the same type of horror movies coming out year after year, this one will definitely surprise you. You might like it more if you're into gory horror, but even if you're not, it's worth a watch just to experience a great-paced Argentine original.",
+      "es": "Una historia nueva, refrescante y sangrienta sobre el control del mal sobre los humanos — una película sorprendentemente bien hecha que te dejará impactada. Si estás cansada del mismo tipo de películas de terror que salen año tras año, esta definitivamente te va a sorprender. Podría gustarte más si te gusta el terror gore, pero aunque no sea tu caso, vale la pena verla solo para experimentar un gran ritmo en una original argentina."
+    }
+  },
+  {
+    "id": "ready-or-not",
+    "title": "Ready or Not",
+    "year": 2019,
+    "runtime": "95 min",
+    "tags": ["Slasher / Gore", "Psychological / Thriller"],
+    "posterImage": "/images/icons/ready-or-not.svg",
+    "stillImage": "/images/icons/ready-or-not.svg",
+    "review": {
+      "en": "This movie is a fun, wild ride — you'll be laughing and yelling 'Run!' so hard. It's a fantastic movie full of energy with a great leading role and story, and a sharp commentary on class and marriage. It's greatly done and will surprise you with how good and enjoyable it is overall; it's the kind of film you can rewatch many times, smart and highly entertaining — a great pick for a friends' movie night. I just simply love that ending. Go women!",
+      "es": "Esta película es un viaje divertido y salvaje — vas a estar riendo y gritando '¡Corre!' con todas tus ganas. Es una película fantástica llena de energía con un gran papel protagónico y una gran historia, además de un comentario agudo sobre la clase social y el matrimonio. Está muy bien hecha y te va a sorprender lo buena y disfrutable que es en general; es de esas películas que puedes ver una y otra vez, inteligente y muy entretenida — perfecta para una noche de películas con amigas. Simplemente amo ese final. ¡Arriba las mujeres!"
+    }
+  },
+  {
+    "id": "the-invitation-2015",
+    "title": "The Invitation",
+    "year": 2015,
+    "runtime": "100 min",
+    "tags": ["Psychological / Thriller"],
+    "posterImage": "/images/icons/the-invitation-2015.svg",
+    "stillImage": "/images/icons/the-invitation-2015.svg",
+    "review": {
+      "en": "The Invitation is a psychological horror film directed by Karyn Kusama. There are no demons or ghosts here, only mind games: the story begins when Will and his girlfriend arrive at a dinner party at his ex-wife's house, where he has to confront a major loss from his past while the other guests behave strangely, hiding their true intentions. This movie will surprise you because it proves that suspense can be built through good dialogue, believable performances, and small key actions, without cheap jump scares. If you're not into supernatural elements, you'll love this one.",
+      "es": "La invitación es una película de terror psicológico dirigida por Karyn Kusama. Aquí no hay demonios ni fantasmas, solo juegos mentales: la historia comienza cuando Will y su novia llegan a una cena en casa de la ex-esposa de Will, donde tendrá que enfrentar una gran pérdida de su pasado mientras los demás invitados se comportan de maneras extrañas, ocultando sus verdaderas intenciones. Esta película te sorprenderá porque demuestra que el suspenso se puede crear con un buen diálogo, actuaciones creíbles y pequeñas acciones clave, sin recurrir a jump scares baratos. Si no te gustan los elementos sobrenaturales, esta te va a encantar."
+    }
+  },
+  {
+    "id": "the-platform",
+    "title": "The Platform",
+    "year": 2019,
+    "runtime": "94 min",
+    "tags": ["Sci-Fi Horror", "Psychological / Thriller", "International / Foreign Language"],
+    "posterImage": "/images/icons/the-platform.svg",
+    "stillImage": "/images/icons/the-platform.svg",
+    "review": {
+      "en": "The Platform is a Spanish film directed by Galder Gaztelu-Urrutia that presents a fascinating premise blending horror, suspense, and science fiction. It begins when Goreng wakes up in a cell shared with an older man, and at the center of this concrete room is a huge hole that seems to have no beginning or end. Why is Goreng there? What is the hole for? How will he survive? With no paranormal elements, this movie grips you from start to finish, with spectacular performances and captivating visuals that leave you reflecting on how our society really works. If you want a movie that'll stay with you, this one's perfect.",
+      "es": "El Hoyo es una película española dirigida por Galder Gaztelu-Urrutia que presenta una premisa fascinante entre terror, suspenso y ciencia ficción. Comienza cuando Goreng despierta en una celda compartida con un hombre mayor, y al centro de este cuarto de concreto hay un gran hoyo que parece no tener inicio ni final. ¿Por qué está Goreng ahí? ¿Para qué es ese hoyo? ¿Cómo logrará sobrevivir? Sin elementos paranormales, esta película te atrapa desde el inicio hasta el final, con actuaciones espectaculares y visuales cautivadores que te dejarán reflexionando sobre el funcionamiento de nuestra sociedad. Si quieres una película que te deje pensando, esta es perfecta para ti."
+    }
+  },
+  {
+    "id": "the-lodge",
+    "title": "The Lodge",
+    "year": 2019,
+    "runtime": "108 min",
+    "tags": ["Psychological / Thriller", "Supernatural / Paranormal"],
+    "posterImage": "/images/icons/the-lodge.svg",
+    "stillImage": "/images/icons/the-lodge.svg",
+    "review": {
+      "en": "The Lodge is a psychological horror film directed by Veronika Franz and Severin Fiala. With classic horror elements but a fresh story, this movie will surprise you. It begins when Grace and her fiancé, Richard, decide to spend Christmas at a cabin with his kids; when Richard heads back to the city for work and leaves Grace alone with the children, strange occurrences start happening. Grace tries to keep the kids safe while searching for the source of what's going on, in a film that hooks you with unexpected turns and an ending worth sticking around for. You'll love it if you're into classic horror told in a way you haven't seen before.",
+      "es": "La cabaña siniestra es una película de terror psicológico dirigida por Veronika Franz y Severin Fiala. Con elementos de terror clásico pero una historia fresca, esta película te va a sorprender. Todo comienza cuando Grace y su prometido, Richard, deciden pasar la Navidad en una cabaña con los hijos de él; cuando Richard vuelve a la ciudad a trabajar y deja a Grace sola con los niños, extrañas ocurrencias comienzan a suceder. Grace intentará mantener a los niños a salvo mientras busca el origen de lo que está pasando, en una película que atrapa con vueltas de trama inesperadas y un final que vale la pena presenciar. Te va a encantar si te gusta el terror clásico pero contado de una forma que no habías visto antes."
+    }
+  },
+  {
+    "id": "mother",
+    "title": "mother!",
+    "year": 2017,
+    "runtime": "121 min",
+    "tags": ["Psychological / Thriller"],
+    "posterImage": "/images/icons/mother.svg",
+    "stillImage": "/images/icons/mother.svg",
+    "review": {
+      "en": "mother! is a film directed by Darren Aronofsky, starring Jennifer Lawrence and Javier Bardem. It begins when a couple settles into a mansion where the husband works on his poetry while the wife renovates it; their quiet life is upended when two unexpected visitors arrive and start transforming their relationship and everything around them. It's a hard movie to describe — the best I can do is call it an allegory for God, nature, and human destruction, a film that twists your mind trying to tell reality from fantasy and leaves you with confusion, disgust, and discomfort. Even though it's hard to make sense of, it's worth the experience if you're looking for horror outside the ordinary.",
+      "es": "¡Madre! es una película dirigida por Darren Aronofsky y protagonizada por Jennifer Lawrence y Javier Bardem. Comienza cuando una pareja se instala en una mansión donde el esposo trabajará en su poesía mientras la esposa la renueva; su vida es tranquila hasta que la llegada de dos inesperadas visitas empieza a transformar su relación y todo a su alrededor. Es una película difícil de describir — lo mejor que puedo decir es que es una alegoría a Dios, la naturaleza y la destrucción humana, un filme que le da vueltas a tu mente tratando de distinguir realidad de fantasía y que te deja con confusión, desagrado e incomodidad. Aunque sea difícil de entender, vale la pena vivir la experiencia si buscas ver un terror fuera de lo común."
+    }
+  },
+  {
+    "id": "raw",
+    "title": "Raw",
+    "year": 2016,
+    "runtime": "99 min",
+    "tags": ["Slasher / Gore", "International / Foreign Language"],
+    "posterImage": "/images/icons/raw.svg",
+    "stillImage": "/images/icons/raw.svg",
+    "review": {
+      "en": "Raw is a French-Belgian film written and directed by Julia Ducournau, with a captivating story, spectacular visuals, and great performances. It begins when vegetarian Justine is sent to veterinary school, where she tastes meat for the first time — what will her reaction be? What will it lead her to do? It's a visually raw movie, full of blood and death, that hooks you with the discomfort and the itch to know what Justine will do next. Not for the faint of heart — if you're into gore, this is your movie.",
+      "es": "Voraz es una película franco-belga escrita y dirigida por Julia Ducournau, con una historia cautivadora, visuales espectaculares y grandes actuaciones. Comienza cuando la vegetariana Justine es enviada a una escuela de veterinaria, donde prueba carne por primera vez — ¿cuál será su reacción? ¿A qué la va a llevar? Es una película visualmente cruda, con mucha sangre y muerte, que te atrapa con la incomodidad y la intriga de querer saber cuál será la siguiente acción de Justine. No apta para estómagos débiles; si te gusta el gore, esta es tu opción."
+    }
+  },
+  {
+    "id": "get-out",
+    "title": "Get Out",
+    "year": 2017,
+    "runtime": "104 min",
+    "tags": ["Psychological / Thriller"],
+    "posterImage": "/images/icons/get-out.svg",
+    "stillImage": "/images/icons/get-out.svg",
+    "review": {
+      "en": "Get Out is written and directed by Jordan Peele, his debut as a feature director, and it'll captivate you with its great story and strong social message. The plot begins when Chris and his girlfriend Rose visit her parents for the first time as a couple; meeting his future in-laws, Chris reads their interactions as mere kindness, but slowly discovers a sinister plan hiding behind their behavior. It's a critically acclaimed film that won the Oscar for Best Original Screenplay in 2017 — a movie you can't miss. You'll love it if you're not into paranormal elements and you love a good suspense story.",
+      "es": "¡Huye! es una película escrita y dirigida por Jordan Peele, su debut como director de largometrajes, y te va a cautivar con su buena historia y su gran mensaje social. La trama comienza cuando Chris y su novia Rose visitan por primera vez a los padres de ella; al conocer a sus futuros suegros, Chris interpreta sus interacciones como mera amabilidad, pero poco a poco descubre que detrás de ese comportamiento hay un plan malvado. Es un filme aclamado por la crítica y ganador del Oscar a mejor guión original en 2017 — una película que no te puedes perder. Te va a encantar si no te gustan los elementos paranormales y te encanta el buen suspenso."
+    }
+  },
+  {
+    "id": "it-2017",
+    "title": "It",
+    "year": 2017,
+    "runtime": "135 min",
+    "tags": ["Supernatural / Paranormal"],
+    "posterImage": "/images/icons/it-2017.svg",
+    "stillImage": "/images/icons/it-2017.svg",
+    "review": {
+      "en": "It (2017) is the second film adaptation of Stephen King's novel, directed by Andy Muschietti. It begins when Bill's little brother, Georgie, goes out to play in the rain and disappears after a strange encounter with a clown; a year later, Bill and his group of friends start experiencing strange paranormal events and work together to save their town and find the source of the evil hunting them. It's a coming-of-age film disguised as horror, mixing fun moments carried by great characters with tense scenes that will definitely get a scare or two out of you. A horror classic reinvented — you'll love it if you like your horror mixed with a bit of comedy.",
+      "es": "Eso (2017) es la segunda adaptación al cine de la novela It de Stephen King, dirigida por Andrés Muschietti. Comienza cuando el hermano menor de Bill, Georgie, sale a jugar bajo la lluvia y, tras un extraño encuentro con un payaso, desaparece; un año después, Bill y su grupo de amigos empiezan a vivir extraños sucesos paranormales y trabajarán juntos para salvar a su pueblo y encontrar el origen del mal que los persigue. Es una película 'coming of age' disfrazada de terror, que combina momentos divertidos protagonizados por excelentes personajes con momentos llenos de tensión que de seguro te sacarán un par de sustos. Un clásico del terror renovado — te va a encantar si te gustan las películas que mezclan terror con un poco de comedia."
+    }
+  },
+  {
+    "id": "the-witch",
+    "title": "The Witch",
+    "year": 2015,
+    "runtime": "92 min",
+    "tags": ["Supernatural / Paranormal", "Psychological / Thriller"],
+    "posterImage": "/images/icons/the-witch.svg",
+    "stillImage": "/images/icons/the-witch.svg",
+    "review": {
+      "en": "The Witch is written and directed by Robert Eggers, his debut as a feature director. Set in 17th-century New England, it begins when a family exiled from their colony starts rebuilding their life next to a dark, foreboding forest that soon seems to bring darkness and destruction into their lives. With plenty of paranormal events and suspense from start to finish, this movie captures your full attention and offers a new take on the origins of witches and their pact with evil. It's not a traditional horror movie, but you'll love it if you're into the paranormal and slow-burn suspense.",
+      "es": "La Bruja es una película escrita y dirigida por Robert Eggers, su debut como director de largometrajes. Se sitúa en el siglo XVII en la Nueva Inglaterra y comienza cuando una familia expulsada de su colonia empieza a rehacer su vida junto a un bosque tenebroso, que pronto parece traer oscuridad y destrucción a sus vidas. Con muchos eventos paranormales y suspenso de principio a fin, esta película captura toda tu atención y presenta una nueva mirada sobre el origen de las brujas y su pacto con el mal. No es una película tradicional, pero te va a encantar si te gusta lo paranormal y el suspenso."
+    }
+  },
+  {
+    "id": "hereditary",
+    "title": "Hereditary",
+    "year": 2018,
+    "runtime": "127 min",
+    "tags": ["Supernatural / Paranormal", "Psychological / Thriller"],
+    "posterImage": "/images/icons/hereditary.svg",
+    "stillImage": "/images/icons/hereditary.svg",
+    "review": {
+      "en": "Hereditary is written and directed by Ari Aster, his debut as a feature director, and features an excellent performance from Toni Collette that you can't miss. It begins when a family of four is mourning the death of the grandmother; the matriarch, Annie, decides to go to group therapy to deal with her grief, where she meets a strange but friendly woman, and paranormal, dark events slowly start surrounding the family. This film takes you through a series of unexpected events while slowly revealing their origin, with excellent visuals you definitely won't be able to get out of your head. If you're into paranormal horror, you'll love this one.",
+      "es": "El Legado del Diablo es una película escrita y dirigida por Ari Aster, su debut como director de largometrajes, y presenta una actuación excelente de Toni Collette que no te puedes perder. Comienza cuando una familia de cuatro está de luto por la muerte de la abuela; la matriarca, Annie, decide ir a terapia de grupo para lidiar con su duelo, donde conoce a una extraña pero amable señora, y poco a poco sucesos paranormales y oscuros empiezan a rodear a la familia. Este filme te lleva por un recorrido de eventos inesperados mientras lentamente revela el origen de estos sucesos, con excelentes visuales que de seguro no podrás sacarte de la mente. Si te gusta el terror paranormal, esta película te va a encantar."
+    }
+  },
+  {
+    "id": "midsommar",
+    "title": "Midsommar",
+    "year": 2019,
+    "runtime": "148 min",
+    "tags": ["Psychological / Thriller", "International / Foreign Language"],
+    "posterImage": "/images/icons/midsommar.svg",
+    "stillImage": "/images/icons/midsommar.svg",
+    "review": {
+      "en": "Midsommar is the second feature written and directed by Ari Aster (director of Hereditary). It begins when Dani joins her boyfriend and his friends at a commune in Hälsingland, Sweden, to witness their summer celebration, only to realize on arrival that it's actually a cult with very particular traditions. Little by little the characters get pulled into those traditions, affecting their relationships and emotions — where will being part of this celebration take them? Midsommar is a fascinating movie that, underneath it all, makes you reflect on codependent relationships and the toxic patterns they bring — a visually stunning, colorful, and raw work of folk horror. If you're into cult and sect movies, you'll love this one.",
+      "es": "Midsommar es el segundo largometraje escrito y dirigido por Ari Aster (director de El Legado del Diablo). Comienza cuando Dani acompaña a su novio y a sus amigos a una comuna en Hälsingland, Suecia, para presenciar su celebración de verano, y al llegar se dan cuenta de que en realidad es una secta con tradiciones muy particulares. Poco a poco los personajes se ven envueltos en esas tradiciones, afectando sus relaciones y emociones — ¿a dónde los llevará ser parte de esta celebración? Midsommar es una película muy interesante que en el fondo nos hace reflexionar sobre las relaciones amorosas codependientes y las actitudes tóxicas que traen consigo; un horror folclórico visualmente asombroso, colorido y crudo. Si te gustan las películas basadas en sectas y cultos, esta te va a encantar."
+    }
+  },
+  {
+    "id": "im-thinking-of-ending-things",
+    "title": "I'm Thinking of Ending Things",
+    "year": 2020,
+    "runtime": "134 min",
+    "tags": ["Psychological / Thriller"],
+    "posterImage": "/images/icons/im-thinking-of-ending-things.svg",
+    "stillImage": "/images/icons/im-thinking-of-ending-things.svg",
+    "review": {
+      "en": "I'm Thinking of Ending Things is a psychological thriller directed by Charlie Kaufman, based on the novel by Iain Reid. It's not horror and won't give you scares, but it will definitely intrigue you with its narrative, gorgeous visuals, and incredible sound design. It begins when Jake and his girlfriend drive to his parents' house for dinner; there, she notices strange interactions between Jake and his parents, and the longer it goes on, the more reality distorts. It'll leave you confused, in awe, and thinking about the meaning of every action by the end — worth watching if you're more into suspense and looking for an innovative film that makes you reflect on loneliness.",
+      "es": "Pienso en el final es una película de suspenso psicológico dirigida por Charlie Kaufman, basada en la novela de Iain Reid. No es de terror y no te va a sacar sustos, pero de seguro te va a intrigar con su narrativa, sus hermosos visuales y su increíble diseño de sonido. Comienza cuando Jake y su novia se dirigen a casa de él para cenar con sus padres; ahí, ella observa extrañas interacciones entre Jake y sus papás, y mientras más pasa el tiempo, más se distorsiona la realidad. Te va a causar confusión, asombro, y al final te va a dejar pensando en el significado de cada acción — vale la pena verla si te gusta más el suspenso y buscas una película innovadora que te haga reflexionar sobre la soledad."
+    }
+  },
+  {
+    "id": "the-conjuring",
+    "title": "The Conjuring",
+    "year": 2013,
+    "runtime": "112 min",
+    "tags": ["Supernatural / Paranormal"],
+    "posterImage": "/images/icons/the-conjuring.svg",
+    "stillImage": "/images/icons/the-conjuring.svg",
+    "review": {
+      "en": "James Wan! That's right, he's directed some of the best horror movies of recent years: Insidious, The Conjuring, Dead Silence, plus the Saw franchise. I watched The Conjuring in theaters, and I screamed and jumped out of my seat more than once — I went in with high expectations and every single one was met, including my wish to walk out with my heart pounding and my whole body weak. It tells the story of one of the Warrens' real paranormal cases, and I love it because it avoids horror clichés, has an actual story behind it, keeps the tension going from start to finish, doesn't overuse jumpscares (and every one of them actually matters to the plot), and never shows the ghosts directly — it lets your imagination do the work. Wan does the best job of showing us a haunted house story like you've never seen it before, with great performances all around. This one genuinely scares me.",
+      "es": "¡James Wan! Así es, él ha dirigido algunas de las mejores películas de terror de los últimos años: Insidious, El Conjuro, Dead Silence, junto con la saga de Saw. El Conjuro la vi en el cine, y vaya que grité y salté de mi asiento varias veces — fui con muchas expectativas y todas se cumplieron, incluyendo mi deseo de salir con el corazón palpitando y el cuerpo débil. Es la historia de uno de los casos paranormales de los Warren, y me encanta porque se evitan los clichés de terror, hay una historia real detrás, mantiene la tensión de principio a fin, no abusa de los jumpscares (y cada uno tiene sentido en la trama), y no te muestra a los fantasmas directamente — deja que tu imaginación trabaje. Wan hace el mejor trabajo mostrándonos una historia de casa embrujada como nunca la habías visto, con muy buenas actuaciones. Esta en serio da miedo."
+    }
+  },
+  {
+    "id": "insidious",
+    "title": "Insidious",
+    "year": 2010,
+    "runtime": "103 min",
+    "tags": ["Supernatural / Paranormal"],
+    "posterImage": "/images/icons/insidious.svg",
+    "stillImage": "/images/icons/insidious.svg",
+    "review": {
+      "en": "James Wan again! I first watched this in my basement when it was already completely dark outside — it wasn't planned, I just found it on TV, and I was scared to death. It's the story of a family where one of the kids falls into a coma and paranormal things start happening in their home. I love it because it doesn't overuse jumpscares (the ones it has push the story forward), there's a real story behind it (inspired by Poltergeist), there's no blood despite its creators also making Saw, and it has ghost appearances without loud jumpscares, which I love — there's nothing better than having to pay close attention to notice something is very wrong. Plus that song is so creepy but so cool. Great performances.",
+      "es": "Otra vez, ¡James Wan! Vi esta película por primera vez en mi sótano cuando ya estaba completamente oscuro afuera — no fue planeado, la encontré en la televisión, y me morí de miedo. Es la historia de una familia donde uno de los hijos entra en coma y cosas paranormales empiezan a suceder en su hogar. Me encanta porque no abusa de los jumpscares (los que hay avanzan la historia), sí hay una historia real detrás (inspirada en Poltergeist), no hay sangre a pesar de que sus creadores también hicieron Saw, y tiene apariciones de fantasmas sin jumpscares fuertes, algo que amo — no hay nada mejor que tener que prestar mucha atención para notar que algo anda muy mal. Además esa canción tan creepy pero cool. Muy buenas actuaciones."
+    }
+  },
+  {
+    "id": "sinister",
+    "title": "Sinister",
+    "year": 2012,
+    "runtime": "110 min",
+    "tags": ["Supernatural / Paranormal", "Psychological / Thriller"],
+    "posterImage": "/images/icons/sinister.svg",
+    "stillImage": "/images/icons/sinister.svg",
+    "review": {
+      "en": "Okay, honestly, I don't remember the first time I watched this movie — I just remember it scared me a lot, and left me running to turn on every light in the house before getting to my room. It's the story of a true-crime author who moves his family into the house where another family was murdered. I like it for the sound design — that old film-reel sound that shows up at the tensest moments and makes my heart race, the music, the tension from the start, and how creepy and uncomfortable the whole movie feels. Great performances.",
+      "es": "Okay, para ser sincera, no recuerdo la primera vez que vi esta película — solo recuerdo que me dio mucho, mucho miedo, y me dejó corriendo a prender todas las luces de mi casa antes de llegar a mi cuarto. Es la historia de un autor que escribe sobre casos de asesinatos y se muda con su familia a la casa donde ocurrió el asesinato de otra familia. Me gusta por el sonido — ese sonido de cinta vieja que aparece en los momentos de mayor tensión y hace que mi corazón palpite nerviosamente, la música, la tensión desde el inicio, y lo escalofriante e incómoda que se siente toda la película. Muy buenas actuaciones."
+    }
+  },
+  {
+    "id": "it-follows",
+    "title": "It Follows",
+    "year": 2014,
+    "runtime": "100 min",
+    "tags": ["Supernatural / Paranormal", "Psychological / Thriller"],
+    "posterImage": "/images/icons/it-follows.svg",
+    "stillImage": "/images/icons/it-follows.svg",
+    "review": {
+      "en": "Oh my god, this movie scared me so much. I was in my room at night, on purpose looking for something scary to watch, and I found this one — it terrified me so badly I had to text my friends about it, after turning on every light, of course. One of my nightmares turned into a beautiful horror movie: something sinister that's always following you. I love it because now you can't just fear the dark, you can fear daylight too, when the sun's out; the music builds tension and the urge to run; the appearances without loud jumpscares make it deeply unsettling; and the monster, 'It,' feels original even if it recalls The Thing a little. Good story, characters who don't do anything stupid, and great performances.",
+      "es": "No manches, qué miedo me dio esta película. Estaba de noche en mi cuarto, buscando a propósito qué película de miedo ver, y me encontré con esta — me dio tantísimo miedo que tuve que mandarle mensajes a mis amigos contándoles, claro, después de prender todas las luces. Una de mis pesadillas la convirtieron en una hermosa película de terror: algo siniestro que siempre te está siguiendo. Me encanta porque ahora no solo puedes temerle a la oscuridad, también al día, cuando el sol está brillando; la música te mete la tensión y las ganas de escapar; las apariciones sin jumpscares fuertes lo hacen muy escalofriante; y el monstruo, o 'It', es muy original a pesar de recordar un poco a The Thing. Buena historia, personajes que no hacen tonterías, y muy buenas actuaciones."
+    }
+  },
+  {
+    "id": "last-shift",
+    "title": "Last Shift",
+    "year": 2014,
+    "runtime": "90 min",
+    "tags": ["Supernatural / Paranormal"],
+    "posterImage": "/images/icons/last-shift.svg",
+    "stillImage": "/images/icons/last-shift.svg",
+    "review": {
+      "en": "Popcorn Time strikes again — I found this one there, had never heard of it, and decided to watch it. I liked it a lot, and even though I saw the ending coming, the rest of the movie surprised me in a good way. It's the story of a rookie cop who has to stay alone at a station overnight, where strange things start happening. I like it for its strong sense of suspense from the start, how it slowly reveals the story behind the paranormal events, its excellent sound design, and how it doesn't overuse jumpscares. Good performance.",
+      "es": "Popcorn Time strikes again — encontré esta película ahí, jamás había escuchado de ella y decidí verla. Me gustó mucho, y aunque el final ya me lo esperaba, el resto de la película me sorprendió gratamente. Es la historia de una policía novata que debe quedarse sola en una estación durante la noche, donde empiezan a suceder cosas extrañas. Me gusta por su buen ambiente de suspenso desde el inicio, cómo vamos descubriendo poco a poco la historia detrás de lo paranormal, sus excelentes efectos de sonido, y que no abusa de los jumpscares. Buena actuación."
+    }
+  },
+  {
+    "id": "the-babadook",
+    "title": "The Babadook",
+    "year": 2014,
+    "runtime": "94 min",
+    "tags": ["Psychological / Thriller", "Supernatural / Paranormal", "International / Foreign Language"],
+    "posterImage": "/images/icons/the-babadook.svg",
+    "stillImage": "/images/icons/the-babadook.svg",
+    "review": {
+      "en": "I watched it on Popcorn Time and had to rewatch the opening scene like five times because it kept buffering — no complaints though, it's a great scene. It's the story of a mother, a son, and a bedtime story about a monster: The Babadook. It's a movie that demands your full attention; if you don't give it, it can feel slow and light on action. I love it for its psychological scares, for not showing the monster right away (perfect for the imagination), the constant dread and discomfort, and for proving that jumpscares and demons aren't necessary to make a great scary movie. Ba-ba-dook-dook-dook.",
+      "es": "La vi en Popcorn Time y tuve que ver la primera escena como cinco veces porque no cargaba, pero no me quejo — es una escena muy buena. Es la historia de una madre, un hijo, y un cuento para dormir sobre un monstruo: El Babadook. Es una película que exige atención total; si no se la das, puede sentirse lenta y sin mucha acción. Me encanta por su miedo psicológico, porque no ves al monstruo desde el inicio (perfecto para la imaginación), la angustia e incomodidad constantes, y porque prueba que los jumpscares y los demonios no son necesarios para hacer una gran película de miedo. Ba-ba-dook-dook-dook."
+    }
+  },
+  {
+    "id": "goodnight-mommy",
+    "title": "Goodnight Mommy",
+    "year": 2014,
+    "runtime": "99 min",
+    "tags": ["Psychological / Thriller", "International / Foreign Language"],
+    "posterImage": "/images/icons/goodnight-mommy.svg",
+    "stillImage": "/images/icons/goodnight-mommy.svg",
+    "review": {
+      "en": "A German film I watched at my university's film club — wow, I was surprised because I didn't expect it to be this good. Some parts of the story are predictable, but it felt like a genuinely chilling experience, and yes, it's gorier than others on this list, but I liked the story enough to sit through the rougher scenes. A pair of twins living with their recently-operated-on mother start to suspect she isn't really her — but who is she? I like it because you don't know who the villain is, there's constant tension from the start, and even with some pretty gory moments, I ended up loving the movie. Great performance.",
+      "es": "Una película alemana que vi en el cineforo de la universidad — wow, me quedé sorprendida porque no esperaba que fuera tan buena. Aunque algunas partes de la historia son predecibles, me pareció una experiencia muy escalofriante, y sí, es más gore que otras de esta lista, pero la historia me gustó tanto que aguanté las escenas más fuertes. Un par de gemelos que viven con su madre recién operada empiezan a sospechar de ella — ¿quién es en realidad? Me gusta porque no sabes quién es el malo, hay tensión constante desde el inicio, y aunque hay cosas bastante gore, la conclusión a la que llegué fue que me encantó la película. Muy buena actuación."
+    }
+  },
+  {
+    "id": "the-orphanage",
+    "title": "The Orphanage",
+    "year": 2007,
+    "runtime": "105 min",
+    "tags": ["Supernatural / Paranormal", "International / Foreign Language"],
+    "posterImage": "/images/icons/the-orphanage.svg",
+    "stillImage": "/images/icons/the-orphanage.svg",
+    "review": {
+      "en": "I watched this for the first time with my mom in the basement, in the dark at night — we got so scared that neither of us wanted to leave the room to turn on the lights. I had full-on goosebumps; I think it was the first Spanish movie I ever watched all the way through that scared me that much. It's the story of a family that moves into the old orphanage where the mother grew up, intending to turn it into a home for children with illnesses. I love it because stories with kids are always scary, and this one is very well made; because it demands attention to small details that build into a real sense of dread; for its psychological scares; and because at a certain point it stops being about something supernatural and becomes something more psychological. Great performances.",
+      "es": "Esta película la vi por primera vez con mi madre en el sótano, a oscuras y de noche — nos asustamos tanto que ninguna quería salir del cuarto a prender las luces. Se me puso la piel completamente chinita; creo que fue la primera película española que vi completa y que me llenó de tanto miedo. Es la historia de una familia que se muda al viejo orfanato donde creció la madre, con la intención de convertirlo en un hogar para niños con enfermedades. Me gusta porque las historias con niños siempre dan miedo, y esta está muy bien realizada; porque exige que prestes atención a pequeños detalles que se acumulan en un gran tono de escalofríos; por su miedo psicológico; y porque en cierto punto deja de tratarse de algo sobrenatural para volverse algo más psicológico. Muy buenas actuaciones."
+    }
+  },
+  {
+    "id": "rec",
+    "title": "REC",
+    "year": 2007,
+    "runtime": "78 min",
+    "tags": ["Zombie / Creature", "International / Foreign Language"],
+    "posterImage": "/images/icons/rec.svg",
+    "stillImage": "/images/icons/rec.svg",
+    "review": {
+      "en": "It took me many, many years to finally watch this movie all the way through — I was very young when it came out and only remember catching the opening with my brother's friends. Years later I finally watched it, and I'd avoided it before thinking it was just another zombie movie; I was pleasantly surprised because I consider it a genuinely great zombie movie. A late-night news reporter follows firefighters responding to a strange call in an apartment building, where something very wrong is happening. I love it for the tension from the very first scene, for making you feel trapped right alongside the protagonists, for not being just another zombie movie — the zombies look spectacular and are genuinely gross and scary — and for being found footage that doesn't fall into the genre's usual repetitiveness.",
+      "es": "Tardé muchos, muchos años en ver esta película completa — estaba muy pequeña cuando salió y solo recuerdo haber visto el inicio con los amigos de mi hermano. Muchos años después por fin la vi, y no la había buscado antes porque pensaba que era solo otra película de zombis; me llevé una gran sorpresa porque la considero una muy buena película de zombis. Una reportera de un programa nocturno acompaña a unos bomberos a atender una llamada extraña en una torre de departamentos, donde algo muy raro está sucediendo. Me gusta por la tensión desde el inicio, porque te sientes atrapada junto con los protagonistas, porque no es otra película de zombis más — los zombis se ven espectaculares y dan mucho asco y miedo — y porque siendo found footage, no cae en lo repetitivo del género."
+    }
+  },
+  {
+    "id": "cloverfield",
+    "title": "Cloverfield",
+    "year": 2008,
+    "runtime": "85 min",
+    "tags": ["Zombie / Creature", "Sci-Fi Horror"],
+    "posterImage": "/images/icons/cloverfield.svg",
+    "stillImage": "/images/icons/cloverfield.svg",
+    "review": {
+      "en": "I liked this movie so much that, having it on DVD, I easily watched it five times. I remember the first time I saw it with my family, my mom got so motion-sick she had to go to the bathroom — it's found footage shot in first person, with a lot of shaky camera movement, so it can definitely make you queasy. I like it, even as a monster/alien movie, for how it introduces the monster — unexpected and full of tension, dropping you right into the chaos; for its really good special effects, especially its portrayal of New York falling apart; and for living through the chaos from the point of view of ordinary people, start to finish. There are plenty of giant-monster-destroys-the-city movies, but Cloverfield gives you a different vantage point that pulls you straight into the terror.",
+      "es": "Esta película me gustó tanto que teniéndola en DVD la vi como cinco veces fácil. Recuerdo que la primera vez que la vi con mi familia, mi mamá se mareó tanto que tuvo que ir al baño — es una película de found footage grabada en primera persona, con muchos movimientos bruscos de cámara, así que definitivamente te puede marear. Me gusta a pesar de ser una película de monstruos/alienígenas por la manera en que te introducen al monstruo, algo inesperado y lleno de tensión que te mete de lleno en el caos; por sus muy buenos efectos especiales, sobre todo su representación de una Nueva York cayéndose a pedazos; y por vivir el caos desde el punto de vista de gente común, de inicio a fin. Hay muchas películas de monstruos gigantes destruyendo ciudades, pero Cloverfield te da un punto de vista distinto que te mete de lleno en el terror."
+    }
+  },
+  {
+    "id": "10-cloverfield-lane",
+    "title": "10 Cloverfield Lane",
+    "year": 2016,
+    "runtime": "104 min",
+    "tags": ["Psychological / Thriller", "Sci-Fi Horror"],
+    "posterImage": "/images/icons/10-cloverfield-lane.svg",
+    "stillImage": "/images/icons/10-cloverfield-lane.svg",
+    "review": {
+      "en": "Another Cloverfield movie? Yes and no. It's set in the same universe but is quite different, and I still liked it a lot — except for the ending, which I have to admit wasn't my favorite, but the rest of the movie fascinated me. I went to see it in theaters as soon as it came out because I'd liked Cloverfield so much I was sure this one wouldn't let me down. I like it because it's more of a suspense movie — you want to know what's happening and why — it's full of tension and surprises, it grabs your full attention because you don't know what's coming or how the characters will act, and it's not predictable at all. It's not like Cloverfield in that you don't see monsters, so don't go in expecting that, but both are great in my opinion.",
+      "es": "¿Otra película de Cloverfield? Sí, y no. Está en el mismo universo pero es bastante diferente, y aun así me gustó mucho — menos el final, tengo que decir que no fue mi favorito, pero el resto de la película me fascinó. Fui a verla al cine tan pronto salió porque me había gustado tanto Cloverfield que estaba segura de que esta no me iba a decepcionar. Me gusta porque es más una película de suspenso —queremos saber qué está pasando y por qué—, tiene mucha tensión y sorpresas, capta toda tu atención porque no sabes qué va a pasar ni cómo van a actuar los personajes, y no es nada predecible. No es como Cloverfield en el sentido de que no ves monstruos, así que no vayas esperando eso, pero ambas son muy buenas en mi opinión."
     }
   }
 ]
