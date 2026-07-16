@@ -4,8 +4,11 @@
     "title": "Smile 2",
     "year": 2024,
     "runtime": "132 min",
-    "tags": ["Psychological / Thriller", "Supernatural / Paranormal"],
-    "posterImage": "/images/icons/smile-2.svg",
+    "tags": [
+      "Psychological / Thriller",
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/smile-2.webp",
     "stillImage": "/images/icons/smile-2.svg",
     "review": {
       "en": "After being disappointed by the first Smile, I made zero effort to catch this one in theaters. Then one night the itch to watch something scary hit, and I gave Smile 2 a shot at home — big mistake waiting so long. Naomi Scott has become a true scream queen with an incredible performance, and the story, visuals, music, and camera work all come together into a masterclass in how a franchise rises from the ashes. It follows a pop star confronting her fears, and by the end you won't know what to believe.",
@@ -17,8 +20,11 @@
     "title": "The Substance",
     "year": 2024,
     "runtime": "141 min",
-    "tags": ["Slasher / Gore", "Psychological / Thriller"],
-    "posterImage": "/images/icons/the-substance.svg",
+    "tags": [
+      "Slasher / Gore",
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/the-substance.webp",
     "stillImage": "/images/icons/the-substance.svg",
     "review": {
       "en": "This movie was heavily nominated at the last Oscars, and for good reason. Incredible performances from both Demi Moore and Margaret Qualley make it mesmerizing and striking — a body horror film that openly criticizes Hollywood and forces an uncomfortable reflection on ageism. The cinematography, story, sound, acting, and visual effects are all amazing; it wants to look and feel grotesque, and it achieves that admirably. Even if body horror isn't really your thing (it's not really mine either), give this one a try — watching through the gaps between your fingers still beats not watching it at all.",
@@ -30,8 +36,10 @@
     "title": "Oddity",
     "year": 2024,
     "runtime": "98 min",
-    "tags": ["Supernatural / Paranormal"],
-    "posterImage": "/images/icons/oddity.svg",
+    "tags": [
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/oddity.webp",
     "stillImage": "/images/icons/oddity.svg",
     "review": {
       "en": "A supernatural movie that builds up to a fantastic overall horror experience. It had been a while since a jumpscare actually spooked me, and this one did it — and in a tasteful way, which we love. Spooky, suspenseful feelings run through the whole film, and it's a tale of grief and revenge. The pacing can feel slow at times, but it's worth patiently sticking with it until the end.",
@@ -43,8 +51,10 @@
     "title": "Nosferatu",
     "year": 2024,
     "runtime": "132 min",
-    "tags": ["Supernatural / Paranormal"],
-    "posterImage": "/images/icons/nosferatu-2024.svg",
+    "tags": [
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/nosferatu-2024.webp",
     "stillImage": "/images/icons/nosferatu-2024.svg",
     "review": {
       "en": "Who doesn't love a story about the OG Dracula? This movie knows exactly what it's doing with its baroque, goth vibes, and every lead delivers a wonderful performance. The visuals are amazing and the story stays strong from start to finish. If you want something less scary but still amazing, this is it — not a jump-out-of-your-seat film, but a spooky, at times grotesque one that leaves you with chills. It's a tale of female suppression and empowerment woven into Bram Stoker's original story — don't skip this one, it might become a cult favorite.",
@@ -56,8 +66,10 @@
     "title": "Talk to Me",
     "year": 2023,
     "runtime": "95 min",
-    "tags": ["Supernatural / Paranormal"],
-    "posterImage": "/images/icons/talk-to-me.svg",
+    "tags": [
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/talk-to-me.webp",
     "stillImage": "/images/icons/talk-to-me.svg",
     "review": {
       "en": "I watched Talk to Me in theaters when my only two options were this or a movie I'd been told was bad, so I went in blind. I walked out immensely happy — what a great scary movie. The story is refreshing, the music and editing keep it exciting, and it's an eerie tale about the consequences of playing with a cursed object. Just when you think it's gone far enough, it keeps going. Bonus: it was made by a pair of YouTuber brothers, and their making-of doc made me cry — I want them to keep making scary movies so badly.",
@@ -69,8 +81,11 @@
     "title": "Train to Busan",
     "year": 2016,
     "runtime": "118 min",
-    "tags": ["Zombie / Creature", "International / Foreign Language"],
-    "posterImage": "/images/icons/train-to-busan.svg",
+    "tags": [
+      "Zombie / Creature",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/train-to-busan.webp",
     "stillImage": "/images/icons/train-to-busan.svg",
     "review": {
       "en": "My interest in zombie movies picked up thanks to this one — I'd gone years without watching one, and this film turned me into a genuine zombie fan. It's a story about human relationships and racing for survival amid a zombie apocalypse, with great characters and action sequences that keep you on the edge of your seat the whole time. The movie looks realistic and tasteful — the zombies are scary and nasty, exactly how I'd imagine them in real life. It's a rollercoaster of emotions so good that it pops back into my mind all the time — it's basically my Roman Empire.",
@@ -82,8 +97,10 @@
     "title": "Alien: Romulus",
     "year": 2024,
     "runtime": "119 min",
-    "tags": ["Sci-Fi Horror"],
-    "posterImage": "/images/icons/alien-romulus.svg",
+    "tags": [
+      "Sci-Fi Horror"
+    ],
+    "posterImage": "/images/icons/alien-romulus.webp",
     "stillImage": "/images/icons/alien-romulus.svg",
     "review": {
       "en": "Yes, yes, yes. The whole Alien franchise gets mentioned as a great sci-fi/horror series for a reason — great stories, characters, action, and visuals with every entry, and this one proves that watching humans fight an alien race never stops being entertaining. Álvarez gives us a fantastic story full of great action that keeps you glued to the screen. It leans more sci-fi, but it's still full of suspense and scary moments that'll have you gripping your seat, and the visuals at times made me feel like I was inside a video game. If you love space, aliens, a great story, and lots of tension, this one's for you.",
@@ -95,8 +112,11 @@
     "title": "Incantation",
     "year": 2022,
     "runtime": "111 min",
-    "tags": ["Supernatural / Paranormal", "International / Foreign Language"],
-    "posterImage": "/images/icons/incantation.svg",
+    "tags": [
+      "Supernatural / Paranormal",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/incantation.webp",
     "stillImage": "/images/icons/incantation.svg",
     "review": {
       "en": "A Taiwanese horror film so good that every time I watch it, I end up scared, wanting to turn on every light in the house and avoid looking at the ceiling. It's a story about a cursed mother, her child, and their journey trying to break said curse — a great found-footage tale with chilling visuals and a meditation that stays with you for days after watching. It's a great example of a good paranormal movie, and like many paranormal films, it claims to be loosely based on a real event. It doesn't get talked about enough because it's Taiwanese, but it definitely deserves more recognition.",
@@ -108,8 +128,11 @@
     "title": "One Cut of the Dead",
     "year": 2017,
     "runtime": "96 min",
-    "tags": ["Zombie / Creature", "International / Foreign Language"],
-    "posterImage": "/images/icons/one-cut-of-the-dead.svg",
+    "tags": [
+      "Zombie / Creature",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/one-cut-of-the-dead.webp",
     "stillImage": "/images/icons/one-cut-of-the-dead.svg",
     "review": {
       "en": "This isn't a scary movie per se, but it's a fun, mind-bending horror comedy worth giving a try — best enjoyed with a group of friends or the help of some stupefying substance (or why not both). You have to be patient to get to the great payoff at the end, but if you make it through, you'll be glad you did. It's a hidden gem — not for everyone, but still a pretty cool, unique experience, and there's a reason it has a cult following. I can't say more without spoiling it, so just go have fun.",
@@ -121,8 +144,12 @@
     "title": "When Evil Lurks",
     "year": 2023,
     "runtime": "99 min",
-    "tags": ["Supernatural / Paranormal", "Slasher / Gore", "International / Foreign Language"],
-    "posterImage": "/images/icons/when-evil-lurks.svg",
+    "tags": [
+      "Supernatural / Paranormal",
+      "Slasher / Gore",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/when-evil-lurks.webp",
     "stillImage": "/images/icons/when-evil-lurks.svg",
     "review": {
       "en": "A new, refreshing, gory story about evil's control over humans — a shockingly well-made film that will leave you startled. If you're tired of the same type of horror movies coming out year after year, this one will definitely surprise you. You might like it more if you're into gory horror, but even if you're not, it's worth a watch just to experience a great-paced Argentine original.",
@@ -134,8 +161,11 @@
     "title": "Ready or Not",
     "year": 2019,
     "runtime": "95 min",
-    "tags": ["Slasher / Gore", "Psychological / Thriller"],
-    "posterImage": "/images/icons/ready-or-not.svg",
+    "tags": [
+      "Slasher / Gore",
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/ready-or-not.webp",
     "stillImage": "/images/icons/ready-or-not.svg",
     "review": {
       "en": "This movie is a fun, wild ride — you'll be laughing and yelling 'Run!' so hard. It's a fantastic movie full of energy with a great leading role and story, and a sharp commentary on class and marriage. It's greatly done and will surprise you with how good and enjoyable it is overall; it's the kind of film you can rewatch many times, smart and highly entertaining — a great pick for a friends' movie night. I just simply love that ending. Go women!",
@@ -147,8 +177,10 @@
     "title": "The Invitation",
     "year": 2015,
     "runtime": "100 min",
-    "tags": ["Psychological / Thriller"],
-    "posterImage": "/images/icons/the-invitation-2015.svg",
+    "tags": [
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/the-invitation-2015.webp",
     "stillImage": "/images/icons/the-invitation-2015.svg",
     "review": {
       "en": "The Invitation is a psychological horror film directed by Karyn Kusama. There are no demons or ghosts here, only mind games: the story begins when Will and his girlfriend arrive at a dinner party at his ex-wife's house, where he has to confront a major loss from his past while the other guests behave strangely, hiding their true intentions. This movie will surprise you because it proves that suspense can be built through good dialogue, believable performances, and small key actions, without cheap jump scares. If you're not into supernatural elements, you'll love this one.",
@@ -160,8 +192,12 @@
     "title": "The Platform",
     "year": 2019,
     "runtime": "94 min",
-    "tags": ["Sci-Fi Horror", "Psychological / Thriller", "International / Foreign Language"],
-    "posterImage": "/images/icons/the-platform.svg",
+    "tags": [
+      "Sci-Fi Horror",
+      "Psychological / Thriller",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/the-platform.webp",
     "stillImage": "/images/icons/the-platform.svg",
     "review": {
       "en": "The Platform is a Spanish film directed by Galder Gaztelu-Urrutia that presents a fascinating premise blending horror, suspense, and science fiction. It begins when Goreng wakes up in a cell shared with an older man, and at the center of this concrete room is a huge hole that seems to have no beginning or end. Why is Goreng there? What is the hole for? How will he survive? With no paranormal elements, this movie grips you from start to finish, with spectacular performances and captivating visuals that leave you reflecting on how our society really works. If you want a movie that'll stay with you, this one's perfect.",
@@ -173,8 +209,11 @@
     "title": "The Lodge",
     "year": 2019,
     "runtime": "108 min",
-    "tags": ["Psychological / Thriller", "Supernatural / Paranormal"],
-    "posterImage": "/images/icons/the-lodge.svg",
+    "tags": [
+      "Psychological / Thriller",
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/the-lodge.webp",
     "stillImage": "/images/icons/the-lodge.svg",
     "review": {
       "en": "The Lodge is a psychological horror film directed by Veronika Franz and Severin Fiala. With classic horror elements but a fresh story, this movie will surprise you. It begins when Grace and her fiancé, Richard, decide to spend Christmas at a cabin with his kids; when Richard heads back to the city for work and leaves Grace alone with the children, strange occurrences start happening. Grace tries to keep the kids safe while searching for the source of what's going on, in a film that hooks you with unexpected turns and an ending worth sticking around for. You'll love it if you're into classic horror told in a way you haven't seen before.",
@@ -186,8 +225,10 @@
     "title": "mother!",
     "year": 2017,
     "runtime": "121 min",
-    "tags": ["Psychological / Thriller"],
-    "posterImage": "/images/icons/mother.svg",
+    "tags": [
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/mother.webp",
     "stillImage": "/images/icons/mother.svg",
     "review": {
       "en": "mother! is a film directed by Darren Aronofsky, starring Jennifer Lawrence and Javier Bardem. It begins when a couple settles into a mansion where the husband works on his poetry while the wife renovates it; their quiet life is upended when two unexpected visitors arrive and start transforming their relationship and everything around them. It's a hard movie to describe — the best I can do is call it an allegory for God, nature, and human destruction, a film that twists your mind trying to tell reality from fantasy and leaves you with confusion, disgust, and discomfort. Even though it's hard to make sense of, it's worth the experience if you're looking for horror outside the ordinary.",
@@ -199,8 +240,11 @@
     "title": "Raw",
     "year": 2016,
     "runtime": "99 min",
-    "tags": ["Slasher / Gore", "International / Foreign Language"],
-    "posterImage": "/images/icons/raw.svg",
+    "tags": [
+      "Slasher / Gore",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/raw.webp",
     "stillImage": "/images/icons/raw.svg",
     "review": {
       "en": "Raw is a French-Belgian film written and directed by Julia Ducournau, with a captivating story, spectacular visuals, and great performances. It begins when vegetarian Justine is sent to veterinary school, where she tastes meat for the first time — what will her reaction be? What will it lead her to do? It's a visually raw movie, full of blood and death, that hooks you with the discomfort and the itch to know what Justine will do next. Not for the faint of heart — if you're into gore, this is your movie.",
@@ -212,8 +256,10 @@
     "title": "Get Out",
     "year": 2017,
     "runtime": "104 min",
-    "tags": ["Psychological / Thriller"],
-    "posterImage": "/images/icons/get-out.svg",
+    "tags": [
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/get-out.webp",
     "stillImage": "/images/icons/get-out.svg",
     "review": {
       "en": "Get Out is written and directed by Jordan Peele, his debut as a feature director, and it'll captivate you with its great story and strong social message. The plot begins when Chris and his girlfriend Rose visit her parents for the first time as a couple; meeting his future in-laws, Chris reads their interactions as mere kindness, but slowly discovers a sinister plan hiding behind their behavior. It's a critically acclaimed film that won the Oscar for Best Original Screenplay in 2017 — a movie you can't miss. You'll love it if you're not into paranormal elements and you love a good suspense story.",
@@ -225,8 +271,10 @@
     "title": "It",
     "year": 2017,
     "runtime": "135 min",
-    "tags": ["Supernatural / Paranormal"],
-    "posterImage": "/images/icons/it-2017.svg",
+    "tags": [
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/it-2017.webp",
     "stillImage": "/images/icons/it-2017.svg",
     "review": {
       "en": "It (2017) is the second film adaptation of Stephen King's novel, directed by Andy Muschietti. It begins when Bill's little brother, Georgie, goes out to play in the rain and disappears after a strange encounter with a clown; a year later, Bill and his group of friends start experiencing strange paranormal events and work together to save their town and find the source of the evil hunting them. It's a coming-of-age film disguised as horror, mixing fun moments carried by great characters with tense scenes that will definitely get a scare or two out of you. A horror classic reinvented — you'll love it if you like your horror mixed with a bit of comedy.",
@@ -238,8 +286,11 @@
     "title": "The Witch",
     "year": 2015,
     "runtime": "92 min",
-    "tags": ["Supernatural / Paranormal", "Psychological / Thriller"],
-    "posterImage": "/images/icons/the-witch.svg",
+    "tags": [
+      "Supernatural / Paranormal",
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/the-witch.webp",
     "stillImage": "/images/icons/the-witch.svg",
     "review": {
       "en": "The Witch is written and directed by Robert Eggers, his debut as a feature director. Set in 17th-century New England, it begins when a family exiled from their colony starts rebuilding their life next to a dark, foreboding forest that soon seems to bring darkness and destruction into their lives. With plenty of paranormal events and suspense from start to finish, this movie captures your full attention and offers a new take on the origins of witches and their pact with evil. It's not a traditional horror movie, but you'll love it if you're into the paranormal and slow-burn suspense.",
@@ -251,8 +302,11 @@
     "title": "Hereditary",
     "year": 2018,
     "runtime": "127 min",
-    "tags": ["Supernatural / Paranormal", "Psychological / Thriller"],
-    "posterImage": "/images/icons/hereditary.svg",
+    "tags": [
+      "Supernatural / Paranormal",
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/hereditary.webp",
     "stillImage": "/images/icons/hereditary.svg",
     "review": {
       "en": "Hereditary is written and directed by Ari Aster, his debut as a feature director, and features an excellent performance from Toni Collette that you can't miss. It begins when a family of four is mourning the death of the grandmother; the matriarch, Annie, decides to go to group therapy to deal with her grief, where she meets a strange but friendly woman, and paranormal, dark events slowly start surrounding the family. This film takes you through a series of unexpected events while slowly revealing their origin, with excellent visuals you definitely won't be able to get out of your head. If you're into paranormal horror, you'll love this one.",
@@ -264,8 +318,11 @@
     "title": "Midsommar",
     "year": 2019,
     "runtime": "148 min",
-    "tags": ["Psychological / Thriller", "International / Foreign Language"],
-    "posterImage": "/images/icons/midsommar.svg",
+    "tags": [
+      "Psychological / Thriller",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/midsommar.webp",
     "stillImage": "/images/icons/midsommar.svg",
     "review": {
       "en": "Midsommar is the second feature written and directed by Ari Aster (director of Hereditary). It begins when Dani joins her boyfriend and his friends at a commune in Hälsingland, Sweden, to witness their summer celebration, only to realize on arrival that it's actually a cult with very particular traditions. Little by little the characters get pulled into those traditions, affecting their relationships and emotions — where will being part of this celebration take them? Midsommar is a fascinating movie that, underneath it all, makes you reflect on codependent relationships and the toxic patterns they bring — a visually stunning, colorful, and raw work of folk horror. If you're into cult and sect movies, you'll love this one.",
@@ -277,8 +334,10 @@
     "title": "I'm Thinking of Ending Things",
     "year": 2020,
     "runtime": "134 min",
-    "tags": ["Psychological / Thriller"],
-    "posterImage": "/images/icons/im-thinking-of-ending-things.svg",
+    "tags": [
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/im-thinking-of-ending-things.webp",
     "stillImage": "/images/icons/im-thinking-of-ending-things.svg",
     "review": {
       "en": "I'm Thinking of Ending Things is a psychological thriller directed by Charlie Kaufman, based on the novel by Iain Reid. It's not horror and won't give you scares, but it will definitely intrigue you with its narrative, gorgeous visuals, and incredible sound design. It begins when Jake and his girlfriend drive to his parents' house for dinner; there, she notices strange interactions between Jake and his parents, and the longer it goes on, the more reality distorts. It'll leave you confused, in awe, and thinking about the meaning of every action by the end — worth watching if you're more into suspense and looking for an innovative film that makes you reflect on loneliness.",
@@ -290,8 +349,10 @@
     "title": "The Conjuring",
     "year": 2013,
     "runtime": "112 min",
-    "tags": ["Supernatural / Paranormal"],
-    "posterImage": "/images/icons/the-conjuring.svg",
+    "tags": [
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/the-conjuring.webp",
     "stillImage": "/images/icons/the-conjuring.svg",
     "review": {
       "en": "James Wan! That's right, he's directed some of the best horror movies of recent years: Insidious, The Conjuring, Dead Silence, plus the Saw franchise. I watched The Conjuring in theaters, and I screamed and jumped out of my seat more than once — I went in with high expectations and every single one was met, including my wish to walk out with my heart pounding and my whole body weak. It tells the story of one of the Warrens' real paranormal cases, and I love it because it avoids horror clichés, has an actual story behind it, keeps the tension going from start to finish, doesn't overuse jumpscares (and every one of them actually matters to the plot), and never shows the ghosts directly — it lets your imagination do the work. Wan does the best job of showing us a haunted house story like you've never seen it before, with great performances all around. This one genuinely scares me.",
@@ -303,8 +364,10 @@
     "title": "Insidious",
     "year": 2010,
     "runtime": "103 min",
-    "tags": ["Supernatural / Paranormal"],
-    "posterImage": "/images/icons/insidious.svg",
+    "tags": [
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/insidious.webp",
     "stillImage": "/images/icons/insidious.svg",
     "review": {
       "en": "James Wan again! I first watched this in my basement when it was already completely dark outside — it wasn't planned, I just found it on TV, and I was scared to death. It's the story of a family where one of the kids falls into a coma and paranormal things start happening in their home. I love it because it doesn't overuse jumpscares (the ones it has push the story forward), there's a real story behind it (inspired by Poltergeist), there's no blood despite its creators also making Saw, and it has ghost appearances without loud jumpscares, which I love — there's nothing better than having to pay close attention to notice something is very wrong. Plus that song is so creepy but so cool. Great performances.",
@@ -316,8 +379,11 @@
     "title": "Sinister",
     "year": 2012,
     "runtime": "110 min",
-    "tags": ["Supernatural / Paranormal", "Psychological / Thriller"],
-    "posterImage": "/images/icons/sinister.svg",
+    "tags": [
+      "Supernatural / Paranormal",
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/sinister.webp",
     "stillImage": "/images/icons/sinister.svg",
     "review": {
       "en": "Okay, honestly, I don't remember the first time I watched this movie — I just remember it scared me a lot, and left me running to turn on every light in the house before getting to my room. It's the story of a true-crime author who moves his family into the house where another family was murdered. I like it for the sound design — that old film-reel sound that shows up at the tensest moments and makes my heart race, the music, the tension from the start, and how creepy and uncomfortable the whole movie feels. Great performances.",
@@ -329,8 +395,11 @@
     "title": "It Follows",
     "year": 2014,
     "runtime": "100 min",
-    "tags": ["Supernatural / Paranormal", "Psychological / Thriller"],
-    "posterImage": "/images/icons/it-follows.svg",
+    "tags": [
+      "Supernatural / Paranormal",
+      "Psychological / Thriller"
+    ],
+    "posterImage": "/images/icons/it-follows.webp",
     "stillImage": "/images/icons/it-follows.svg",
     "review": {
       "en": "Oh my god, this movie scared me so much. I was in my room at night, on purpose looking for something scary to watch, and I found this one — it terrified me so badly I had to text my friends about it, after turning on every light, of course. One of my nightmares turned into a beautiful horror movie: something sinister that's always following you. I love it because now you can't just fear the dark, you can fear daylight too, when the sun's out; the music builds tension and the urge to run; the appearances without loud jumpscares make it deeply unsettling; and the monster, 'It,' feels original even if it recalls The Thing a little. Good story, characters who don't do anything stupid, and great performances.",
@@ -342,8 +411,10 @@
     "title": "Last Shift",
     "year": 2014,
     "runtime": "90 min",
-    "tags": ["Supernatural / Paranormal"],
-    "posterImage": "/images/icons/last-shift.svg",
+    "tags": [
+      "Supernatural / Paranormal"
+    ],
+    "posterImage": "/images/icons/last-shift.webp",
     "stillImage": "/images/icons/last-shift.svg",
     "review": {
       "en": "Popcorn Time strikes again — I found this one there, had never heard of it, and decided to watch it. I liked it a lot, and even though I saw the ending coming, the rest of the movie surprised me in a good way. It's the story of a rookie cop who has to stay alone at a station overnight, where strange things start happening. I like it for its strong sense of suspense from the start, how it slowly reveals the story behind the paranormal events, its excellent sound design, and how it doesn't overuse jumpscares. Good performance.",
@@ -355,8 +426,12 @@
     "title": "The Babadook",
     "year": 2014,
     "runtime": "94 min",
-    "tags": ["Psychological / Thriller", "Supernatural / Paranormal", "International / Foreign Language"],
-    "posterImage": "/images/icons/the-babadook.svg",
+    "tags": [
+      "Psychological / Thriller",
+      "Supernatural / Paranormal",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/the-babadook.webp",
     "stillImage": "/images/icons/the-babadook.svg",
     "review": {
       "en": "I watched it on Popcorn Time and had to rewatch the opening scene like five times because it kept buffering — no complaints though, it's a great scene. It's the story of a mother, a son, and a bedtime story about a monster: The Babadook. It's a movie that demands your full attention; if you don't give it, it can feel slow and light on action. I love it for its psychological scares, for not showing the monster right away (perfect for the imagination), the constant dread and discomfort, and for proving that jumpscares and demons aren't necessary to make a great scary movie. Ba-ba-dook-dook-dook.",
@@ -368,8 +443,11 @@
     "title": "Goodnight Mommy",
     "year": 2014,
     "runtime": "99 min",
-    "tags": ["Psychological / Thriller", "International / Foreign Language"],
-    "posterImage": "/images/icons/goodnight-mommy.svg",
+    "tags": [
+      "Psychological / Thriller",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/goodnight-mommy.webp",
     "stillImage": "/images/icons/goodnight-mommy.svg",
     "review": {
       "en": "A German film I watched at my university's film club — wow, I was surprised because I didn't expect it to be this good. Some parts of the story are predictable, but it felt like a genuinely chilling experience, and yes, it's gorier than others on this list, but I liked the story enough to sit through the rougher scenes. A pair of twins living with their recently-operated-on mother start to suspect she isn't really her — but who is she? I like it because you don't know who the villain is, there's constant tension from the start, and even with some pretty gory moments, I ended up loving the movie. Great performance.",
@@ -381,8 +459,11 @@
     "title": "The Orphanage",
     "year": 2007,
     "runtime": "105 min",
-    "tags": ["Supernatural / Paranormal", "International / Foreign Language"],
-    "posterImage": "/images/icons/the-orphanage.svg",
+    "tags": [
+      "Supernatural / Paranormal",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/the-orphanage.webp",
     "stillImage": "/images/icons/the-orphanage.svg",
     "review": {
       "en": "I watched this for the first time with my mom in the basement, in the dark at night — we got so scared that neither of us wanted to leave the room to turn on the lights. I had full-on goosebumps; I think it was the first Spanish movie I ever watched all the way through that scared me that much. It's the story of a family that moves into the old orphanage where the mother grew up, intending to turn it into a home for children with illnesses. I love it because stories with kids are always scary, and this one is very well made; because it demands attention to small details that build into a real sense of dread; for its psychological scares; and because at a certain point it stops being about something supernatural and becomes something more psychological. Great performances.",
@@ -394,8 +475,11 @@
     "title": "REC",
     "year": 2007,
     "runtime": "78 min",
-    "tags": ["Zombie / Creature", "International / Foreign Language"],
-    "posterImage": "/images/icons/rec.svg",
+    "tags": [
+      "Zombie / Creature",
+      "International / Foreign Language"
+    ],
+    "posterImage": "/images/icons/rec.webp",
     "stillImage": "/images/icons/rec.svg",
     "review": {
       "en": "It took me many, many years to finally watch this movie all the way through — I was very young when it came out and only remember catching the opening with my brother's friends. Years later I finally watched it, and I'd avoided it before thinking it was just another zombie movie; I was pleasantly surprised because I consider it a genuinely great zombie movie. A late-night news reporter follows firefighters responding to a strange call in an apartment building, where something very wrong is happening. I love it for the tension from the very first scene, for making you feel trapped right alongside the protagonists, for not being just another zombie movie — the zombies look spectacular and are genuinely gross and scary — and for being found footage that doesn't fall into the genre's usual repetitiveness.",
@@ -407,8 +491,11 @@
     "title": "Cloverfield",
     "year": 2008,
     "runtime": "85 min",
-    "tags": ["Zombie / Creature", "Sci-Fi Horror"],
-    "posterImage": "/images/icons/cloverfield.svg",
+    "tags": [
+      "Zombie / Creature",
+      "Sci-Fi Horror"
+    ],
+    "posterImage": "/images/icons/cloverfield.webp",
     "stillImage": "/images/icons/cloverfield.svg",
     "review": {
       "en": "I liked this movie so much that, having it on DVD, I easily watched it five times. I remember the first time I saw it with my family, my mom got so motion-sick she had to go to the bathroom — it's found footage shot in first person, with a lot of shaky camera movement, so it can definitely make you queasy. I like it, even as a monster/alien movie, for how it introduces the monster — unexpected and full of tension, dropping you right into the chaos; for its really good special effects, especially its portrayal of New York falling apart; and for living through the chaos from the point of view of ordinary people, start to finish. There are plenty of giant-monster-destroys-the-city movies, but Cloverfield gives you a different vantage point that pulls you straight into the terror.",
@@ -420,8 +507,11 @@
     "title": "10 Cloverfield Lane",
     "year": 2016,
     "runtime": "104 min",
-    "tags": ["Psychological / Thriller", "Sci-Fi Horror"],
-    "posterImage": "/images/icons/10-cloverfield-lane.svg",
+    "tags": [
+      "Psychological / Thriller",
+      "Sci-Fi Horror"
+    ],
+    "posterImage": "/images/icons/10-cloverfield-lane.webp",
     "stillImage": "/images/icons/10-cloverfield-lane.svg",
     "review": {
       "en": "Another Cloverfield movie? Yes and no. It's set in the same universe but is quite different, and I still liked it a lot — except for the ending, which I have to admit wasn't my favorite, but the rest of the movie fascinated me. I went to see it in theaters as soon as it came out because I'd liked Cloverfield so much I was sure this one wouldn't let me down. I like it because it's more of a suspense movie — you want to know what's happening and why — it's full of tension and surprises, it grabs your full attention because you don't know what's coming or how the characters will act, and it's not predictable at all. It's not like Cloverfield in that you don't see monsters, so don't go in expecting that, but both are great in my opinion.",
