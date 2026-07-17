@@ -26,15 +26,15 @@ export default function FilterBar({ selectedSlugs }) {
   }
 
   return (
-    <div className="flex flex-wrap gap-2 px-6 pb-8 sm:px-10">
+    <div className="flex flex-wrap justify-center gap-2 px-6 pb-8 sm:px-10">
       <button
         type="button"
         onClick={reset}
         aria-pressed={selectedSlugs.length === 0}
-        className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+        className={`rounded-full px-3 py-1 text-xs transition-colors ${
           selectedSlugs.length === 0
-            ? "bg-accent text-tag-text"
-            : "bg-tag-bg text-tag-text hover:bg-accent"
+            ? "bg-accent text-tag-text font-bold"
+            : "bg-tag-bg text-tag-text font-medium hover:bg-accent"
         }`}
       >
         {t("filterAll")}

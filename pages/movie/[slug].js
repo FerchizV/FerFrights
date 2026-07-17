@@ -3,10 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import TagPill from "@/components/TagPill";
+import RatingsSection from "@/components/RatingsSection";
 import movies from "@/data/movies.json";
 import { useLanguage } from "@/context/LanguageContext";
+import { fetchRatings } from "@/lib/omdb";
 
-export default function MoviePage({ movie }) {
+export default function MoviePage({ movie, ratings }) {
   const { lang, t } = useLanguage();
 
   return (
@@ -39,6 +41,7 @@ export default function MoviePage({ movie }) {
                   <TagPill key={tag} tag={tag} linkToFilter />
                 ))}
               </div>
+              <RatingsSection ratings={ratings} />
             </header>
 
             <div className="relative mt-6 aspect-video w-full overflow-hidden rounded-xl bg-surface">
@@ -77,5 +80,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const movie = movies.find((m) => m.id === params.slug);
-  return { props: { movie } };
+  const ratings = await fetchRatings(movie.title, movie.year);
+  return { props: { movie, ratings } };
 }

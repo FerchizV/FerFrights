@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Nav from "@/components/Nav";
+import Header from "@/components/Header";
 import MovieCard from "@/components/MovieCard";
 import FilterBar from "@/components/FilterBar";
 import movies from "@/data/movies.json";
@@ -27,7 +27,7 @@ export default function Home() {
         />
       </Head>
       <main className="min-h-screen">
-        <Nav />
+        <Header showTagline />
         <FilterBar selectedSlugs={selectedSlugs} />
         <div className="px-6 pb-16 sm:px-10">
           <div className="grid grid-cols-2 gap-5 transition-all duration-300 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">

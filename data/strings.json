@@ -1,5 +1,5 @@
 {
-  "_comment": "UI string dictionary for the EN/ES toggle (see context/LanguageContext.js). Movie review text lives in movies.json, not here.",
+  "_comment": "UI string dictionary for the EN/ES toggle (see context/LanguageContext.js). Movie review text lives in movies.json, About page bio text lives in about.json — this file is UI chrome only.",
   "en": {
     "siteName": "FerFrights",
     "navHome": "Home",
@@ -13,10 +13,16 @@
     "tagPsychological": "Psychological / Thriller",
     "tagInternational": "International / Foreign Language",
     "tagSciFi": "Sci-Fi Horror",
+    "contactMe": "Contact Me",
+    "homeTagline": "From my favorite horror movies to your next awesome fright night. Click on each icon to learn more about each film. Get your popcorn ready and turn the lights off, because it's movie time!",
+    "helloImPrefix": "Hello! I'm",
+    "whyHorrorHeading": "Why Horror",
+    "topFavoritesLabel": "Current top 3 favorites",
     "contactName": "Name",
     "contactEmail": "Email",
     "contactMessage": "Message",
     "contactSubmit": "Send",
+    "contactSending": "Sending...",
     "contactSuccess": "Thanks! I'll get back to you soon.",
     "contactError": "Something went wrong — please try again."
   },
@@ -33,10 +39,16 @@
     "tagPsychological": "Psicológico / Suspenso",
     "tagInternational": "Internacional / Idioma extranjero",
     "tagSciFi": "Ciencia ficción de terror",
+    "contactMe": "Contáctame",
+    "homeTagline": "Desde mis películas de terror favoritas hasta tu próxima noche de miedo increíble. Haz clic en cada ícono para conocer más sobre cada película. Prepara tus palomitas y apaga las luces, ¡porque es hora de la película!",
+    "helloImPrefix": "¡Hola! Soy",
+    "whyHorrorHeading": "Por Qué el Terror",
+    "topFavoritesLabel": "Mis 3 favoritas actuales",
     "contactName": "Nombre",
     "contactEmail": "Correo electrónico",
     "contactMessage": "Mensaje",
     "contactSubmit": "Enviar",
+    "contactSending": "Enviando...",
     "contactSuccess": "¡Gracias! Te responderé pronto.",
     "contactError": "Algo salió mal — inténtalo de nuevo."
   }

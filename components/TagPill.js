@@ -7,9 +7,9 @@ export default function TagPill({ tag, linkToFilter, onClick, active }) {
   const key = tagToKey(tag);
   const label = key ? t(key) : tag;
 
-  const base = "inline-block rounded-full px-3 py-1 text-xs font-medium whitespace-nowrap transition-colors";
-  const activeClasses = "bg-accent text-tag-text";
-  const inactiveClasses = "bg-tag-bg text-tag-text hover:bg-accent";
+  const base = "inline-block rounded-full px-3 py-1 text-xs whitespace-nowrap transition-colors";
+  const activeClasses = "bg-accent text-tag-text font-bold";
+  const inactiveClasses = "bg-tag-bg text-tag-text font-medium hover:bg-accent";
 
   if (linkToFilter) {
     return (
