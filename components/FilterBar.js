@@ -3,7 +3,7 @@ import TagPill from "./TagPill";
 import { TAGS } from "@/lib/tags";
 import { useLanguage } from "@/context/LanguageContext";
 
-export default function FilterBar({ selectedSlugs }) {
+export default function FilterBar({ selectedSlugs, count }) {
   const router = useRouter();
   const { t } = useLanguage();
 
@@ -26,27 +26,32 @@ export default function FilterBar({ selectedSlugs }) {
   }
 
   return (
-    <div className="flex flex-wrap justify-center gap-2 px-6 pb-8 sm:px-10">
-      <button
-        type="button"
-        onClick={reset}
-        aria-pressed={selectedSlugs.length === 0}
-        className={`rounded-full px-3 py-1 text-xs transition-colors ${
-          selectedSlugs.length === 0
-            ? "bg-accent text-tag-text font-bold"
-            : "bg-tag-bg text-tag-text font-medium hover:bg-accent"
-        }`}
-      >
-        {t("filterAll")}
-      </button>
-      {TAGS.map(({ tag, slug }) => (
-        <TagPill
-          key={slug}
-          tag={tag}
-          active={selectedSlugs.includes(slug)}
-          onClick={() => toggleTag(slug)}
-        />
-      ))}
+    <div className="px-6 pb-8 sm:px-10">
+      <div className="flex flex-wrap justify-center gap-2">
+        <button
+          type="button"
+          onClick={reset}
+          aria-pressed={selectedSlugs.length === 0}
+          className={`rounded-full px-3 py-1 text-xs transition-colors ${
+            selectedSlugs.length === 0
+              ? "bg-accent text-tag-text font-bold"
+              : "bg-tag-bg text-tag-text font-medium hover:bg-accent"
+          }`}
+        >
+          {t("filterAll")}
+        </button>
+        {TAGS.map(({ tag, slug }) => (
+          <TagPill
+            key={slug}
+            tag={tag}
+            active={selectedSlugs.includes(slug)}
+            onClick={() => toggleTag(slug)}
+          />
+        ))}
+      </div>
+      <p className="mt-3 text-center text-sm text-foreground/60">
+        {count} {count === 1 ? t("movieCountSingular") : t("movieCountPlural")}
+      </p>
     </div>
   );
 }

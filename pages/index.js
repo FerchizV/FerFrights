@@ -28,11 +28,13 @@ export default function Home() {
       </Head>
       <main className="min-h-screen">
         <Header showTagline />
-        <FilterBar selectedSlugs={selectedSlugs} />
+        <FilterBar selectedSlugs={selectedSlugs} count={filteredMovies.length} />
         <div className="px-6 pb-16 sm:px-10">
-          <div className="grid grid-cols-2 gap-5 transition-all duration-300 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+          <div className="flex flex-wrap justify-center gap-5 transition-all duration-300">
             {filteredMovies.map((movie) => (
-              <MovieCard key={movie.id} movie={movie} />
+              <div key={movie.id} className="w-36 sm:w-40">
+                <MovieCard movie={movie} />
+              </div>
             ))}
           </div>
         </div>

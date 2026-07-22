@@ -9,11 +9,12 @@ export default function TagPill({ tag, linkToFilter, onClick, active }) {
 
   const base = "inline-block rounded-full px-3 py-1 text-xs whitespace-nowrap transition-colors";
   const activeClasses = "bg-accent text-tag-text font-bold";
-  const inactiveClasses = "bg-tag-bg text-tag-text font-medium hover:bg-accent";
+  const inactiveClasses = "bg-tag-bg text-tag-text font-medium";
+  const inactiveInteractiveClasses = `${inactiveClasses} hover:bg-accent`;
 
   if (linkToFilter) {
     return (
-      <Link href={`/?tags=${tagToSlug(tag)}`} className={`${base} ${inactiveClasses}`}>
+      <Link href={`/?tags=${tagToSlug(tag)}`} className={`${base} ${inactiveInteractiveClasses}`}>
         {label}
       </Link>
     );
@@ -25,7 +26,7 @@ export default function TagPill({ tag, linkToFilter, onClick, active }) {
         type="button"
         onClick={onClick}
         aria-pressed={active}
-        className={`${base} ${active ? activeClasses : inactiveClasses}`}
+        className={`${base} ${active ? activeClasses : inactiveInteractiveClasses}`}
       >
         {label}
       </button>
