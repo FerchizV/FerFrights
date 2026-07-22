@@ -38,6 +38,12 @@ export default function ContactForm() {
 
   return (
     <div id="contact-form" className="rounded-xl bg-surface p-8">
+      <h2 className="text-center font-heading text-2xl font-semibold text-foreground">
+        {t("contactHeading")}
+      </h2>
+      <p className="mx-auto mt-4 mb-6 max-w-xl text-center text-base leading-relaxed text-foreground/90">
+        {t("contactIntro")}
+      </p>
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
         <div className="flex flex-col gap-1.5">
           <label htmlFor="name" className="text-sm font-medium text-foreground/80">
