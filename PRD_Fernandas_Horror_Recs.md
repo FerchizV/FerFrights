@@ -230,7 +230,7 @@ Claude Code must build a simple mechanism for Fernanda to add new movies. The pr
 - **Framework:** Next.js (React) — good for static export + SEO + routing
 - **Styling:** Tailwind CSS
 - **Language:** JavaScript (not TypeScript — keep it simple)
-- **Hosting:** Netlify (free tier, no custom domain needed at launch)
+- **Hosting:** ~~Netlify~~ **Superseded 2026-07-22**: Vercel (free tier, no custom domain needed at launch) — Fernanda already has a Vercel account, and it's Next.js's own hosting platform; deploys the same static export with no code changes required.
 - **Contact form:** Formspree free tier (handles email delivery, no backend needed)
 - **Ratings API:** Implement OMDB API (free tier, requires free API key) for IMDb scores. If the API is unavailable or the key is not set, ratings must be hidden completely — no empty placeholders.
 

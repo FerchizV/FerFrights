@@ -17,12 +17,13 @@ This plan turns `PRD_Fernandas_Horror_Recs.md` into a concrete, phased build seq
 | Homepage tile style | ~~Card with tags — icon + title + genre tag pills inside a bounded card~~ **Superseded 2026-07-15**: bare, borderless icon + title (true Woset-style), genre tags hidden by default and revealed on hover only — see Phase 2.5 |
 | Color palette | ~~Near-black background, blood-red accent~~ **Superseded 2026-07-15**: warm cream background, near-black text, red kept only as an accent (links, active tags) — see Phase 2.5 and PRD §5.2 |
 | Hover treatment | ~~Red glow~~ **Superseded 2026-07-15**: subtle neutral shadow lift, no color |
+| Hosting | ~~Netlify~~ **Superseded 2026-07-22**: Vercel — Fernanda already has an account there, and it's Next.js's own hosting platform. Same static export, zero code changes; see updated `DEPLOYMENT.md`. |
 | Ratings scope | **Show all available** — IMDb, Rotten Tomatoes, and Metacritic when OMDB returns them (same free API call already covers this); section still fully hidden if no data at all |
 | About/Why Horror bio | **Real copy provided**, stored below — no placeholder needed |
 | Top 3 current favorites | Obsession, Weapons, Talk to Me |
 | Site name | **FerFrights** (finalized, replaces working title "Fernanda's Recs" everywhere) |
 | Avatar art | Received — `FernandaDrawing.png` in the project root (hand-drawn line illustration, woman with long wavy hair at a Golden Gate Bridge viewpoint binocular stand). Will be copied into `public/images/avatar.png` during scaffolding. |
-| Framework | Next.js **Pages Router** (not App Router) — every page here is interactive client-side; Pages Router avoids explaining server/client component splits to a non-technical owner and pairs more simply with static export for Netlify |
+| Framework | Next.js **Pages Router** (not App Router) — every page here is interactive client-side; Pages Router avoids explaining server/client component splits to a non-technical owner and pairs more simply with static export for deployment |
 | Language state | Plain React Context + `useState` + localStorage — no i18n library, no Redux, appropriate for a 3-page site |
 | Filter state | Selected tags live in the URL query string (`/?tags=slasher,zombie`) — makes "Back preserves filters" work for free via browser history, no manual state bookkeeping |
 
@@ -128,10 +129,10 @@ After seeing Phase 1/2 built out, Fernanda decided the near-black/blood-red look
 3. "Contact Me" button scrolls to `#contact-form`.
 4. `ContactForm.js` — Name/Email/Message, AJAX POST to Formspree endpoint via env var, inline bilingual success/error states. Functional once Fernanda supplies her real endpoint; doesn't block anything else until then.
 5. `lib/omdb.js` — server-side fetch in `getStaticProps` (key never reaches the browser). Show IMDb/RT/Metacritic whenever OMDB returns them; if the key is unset or OMDB returns no data, `RatingsSection` renders nothing — no empty placeholder.
-6. Deployment: `netlify.toml` (build `npm run build`, publish `out`). **This phase requires `git init` + push to GitHub, which is a hard "always ask first" item per your CLAUDE.md — I will pause and confirm with you explicitly before doing this step, not just because it's in the plan.** Document required Netlify env vars in `DEPLOYMENT.md`.
-7. `HOW_TO_ADD_MOVIES.md` — plain-English guide: copy the last `movies.json` entry as a template, fill in fields, tags must match one of the 6 fixed categories exactly, drop the still image into `public/images`, save and push; Netlify auto-rebuilds.
+6. Deployment: ~~`netlify.toml` (build `npm run build`, publish `out`)~~ **Superseded 2026-07-22**: deploying to **Vercel** instead (Fernanda already has an account; Vercel auto-detects the Next.js build, no config file needed — `netlify.toml` removed). **This phase requires `git init` + push to GitHub, which is a hard "always ask first" item per your CLAUDE.md — I will pause and confirm with you explicitly before doing this step, not just because it's in the plan.** Document required Vercel env vars in `DEPLOYMENT.md`.
+7. `HOW_TO_ADD_MOVIES.md` — plain-English guide: copy the last `movies.json` entry as a template, fill in fields, tags must match one of the 6 fixed categories exactly, drop the still image into `public/images`, save and push; Vercel auto-rebuilds.
 
-**Verify:** `npm run build` succeeds, serve `out` locally and click through all 3 routes; ratings appear/disappear correctly based on `OMDB_API_KEY` presence; About page stacks correctly on mobile; contact form works once the real endpoint is set; live Netlify URL matches local build.
+**Verify:** `npm run build` succeeds, serve `out` locally and click through all 3 routes; ratings appear/disappear correctly based on `OMDB_API_KEY` presence; About page stacks correctly on mobile; contact form works once the real endpoint is set; live Vercel URL matches local build.
 
 ## Open items still needed from Fernanda (non-blocking)
 

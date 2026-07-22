@@ -60,7 +60,7 @@ If your icon has a checkered background instead of a truly transparent one (a co
 1. Save `data/movies.json`. Double-check there's no missing comma between movie entries — every entry except the last one in the list needs a `,` after its closing `}`.
 2. Ask Claude Code to run `npm run build` to make sure nothing is broken.
 3. Commit and push to GitHub (ask Claude Code to do this, or do it yourself if you're comfortable with git).
-4. Netlify automatically rebuilds the live site within a couple of minutes of the push — no extra steps needed.
+4. Vercel automatically rebuilds the live site within a couple of minutes of the push — no extra steps needed.
 
 ## Common mistakes to avoid
 
