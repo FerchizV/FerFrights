@@ -35,6 +35,14 @@ export default function About() {
           <div className="mt-10">
             <ContactForm />
           </div>
+
+          <div className="mt-10 flex flex-col items-center gap-2 border-t border-foreground/10 pt-8 text-center">
+            {/* eslint-disable-next-line @next/next/no-img-element -- static third-party logo asset, not content */}
+            <img src="/images/tmdb-logo.svg" alt="TMDB" className="h-4 w-auto opacity-70" />
+            <p className="max-w-md text-xs text-foreground/50">
+              This website uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.
+            </p>
+          </div>
         </div>
       </main>
     </>
