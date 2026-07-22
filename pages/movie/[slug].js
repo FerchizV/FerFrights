@@ -7,8 +7,9 @@ import RatingsSection from "@/components/RatingsSection";
 import movies from "@/data/movies.json";
 import { useLanguage } from "@/context/LanguageContext";
 import { fetchRatings } from "@/lib/omdb";
+import { fetchTmdbStill } from "@/lib/tmdb";
 
-export default function MoviePage({ movie, ratings }) {
+export default function MoviePage({ movie, ratings, stillImage, stillImageCredit }) {
   const { lang, t } = useLanguage();
 
   return (
@@ -46,7 +47,7 @@ export default function MoviePage({ movie, ratings }) {
 
             <div className="relative mt-6 aspect-video w-full overflow-hidden rounded-xl bg-surface">
               <Image
-                src={movie.stillImage}
+                src={stillImage}
                 alt={`Still image from ${movie.title}`}
                 fill
                 className="object-cover"
@@ -54,6 +55,18 @@ export default function MoviePage({ movie, ratings }) {
                 priority
               />
             </div>
+            {stillImageCredit && (
+              <p className="mt-2 text-right text-xs text-foreground/40">
+                <a
+                  href="https://www.themoviedb.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-foreground/70"
+                >
+                  {t("imageCreditTmdb")}
+                </a>
+              </p>
+            )}
 
             <article className="mt-8 text-base leading-relaxed text-foreground/90">
               <p>{movie.review[lang]}</p>
@@ -81,5 +94,10 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const movie = movies.find((m) => m.id === params.slug);
   const ratings = await fetchRatings(movie.title, movie.year);
-  return { props: { movie, ratings } };
+
+  const tmdbStill = await fetchTmdbStill(movie.title, movie.year);
+  const stillImage = tmdbStill?.url ?? movie.stillImage;
+  const stillImageCredit = Boolean(tmdbStill);
+
+  return { props: { movie, ratings, stillImage, stillImageCredit } };
 }

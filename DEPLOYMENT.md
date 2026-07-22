@@ -10,15 +10,16 @@ This site is already on GitHub at `github.com/FerchizV/FerFrights`. Vercel will 
 4. Vercel auto-detects this as a Next.js project — you shouldn't need to change any build settings. Just confirm and click **Deploy**.
 5. Wait a couple of minutes for the first build to finish. Vercel will give you a URL like `ferfrights.vercel.app` — that's your live site.
 
-## Adding your API keys (OMDB ratings + Formspree contact form)
+## Adding your API keys (OMDB ratings, TMDB images, Formspree contact form)
 
-The site works without these — ratings just won't show, and the contact form will show a friendly error if submitted. Once you have them:
+The site works without these — ratings just won't show, movie pages fall back to the local placeholder still image, and the contact form will show a friendly error if submitted. Once you have them:
 
 1. In Vercel, go to your project's **Settings → Environment Variables**.
-2. Add these two variables (Production environment is fine, or all environments):
+2. Add these variables (Production environment is fine, or all environments):
    | Key | Value |
    |---|---|
    | `OMDB_API_KEY` | your free key from [omdbapi.com](https://www.omdbapi.com/apikey.aspx) |
+   | `TMDB_API_KEY` | your free v3 API key from [themoviedb.org/settings/api](https://www.themoviedb.org/settings/api) — used to pull a properly-licensed still image per movie, with on-page attribution |
    | `NEXT_PUBLIC_FORMSPREE_ENDPOINT` | your form endpoint from [formspree.io](https://formspree.io), looks like `https://formspree.io/f/xxxxxxxx` |
 3. Go to **Deployments**, open the latest one, and click **Redeploy** so the new keys take effect (Vercel only reads env vars at build time, not automatically).
 
