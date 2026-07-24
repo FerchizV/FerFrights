@@ -1,7 +1,6 @@
 {
   "_comment": "UI string dictionary for the EN/ES toggle (see context/LanguageContext.js). Movie review text lives in movies.json, About page bio text lives in about.json — this file is UI chrome only.",
   "en": {
-    "siteName": "FerFrights",
     "navHome": "Home",
     "navAbout": "About",
     "filterAll": "All",
@@ -37,7 +36,6 @@
     "contactError": "Something went wrong — please try again."
   },
   "es": {
-    "siteName": "FerFrights",
     "navHome": "Inicio",
     "navAbout": "Sobre mí",
     "filterAll": "Todas",
