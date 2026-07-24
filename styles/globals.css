@@ -60,3 +60,39 @@ h4 {
   box-shadow: 0 10px 24px rgba(20, 20, 20, 0.16);
   transform: scale(1.03);
 }
+
+@keyframes tv-scan {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 8px;
+  }
+}
+
+.tv-static-bg {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(245, 240, 235, 0.08) 0px,
+    rgba(245, 240, 235, 0.08) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  animation: tv-scan 0.2s linear infinite;
+}
+
+@keyframes tv-flicker {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateY(1px);
+  }
+}
+
+.tv-flicker {
+  animation: tv-flicker 0.1s steps(2, jump-none) infinite;
+}

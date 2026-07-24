@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Header from "@/components/Header";
 import MovieCard from "@/components/MovieCard";
 import FilterBar from "@/components/FilterBar";
+import SpiritTv from "@/components/SpiritTv";
 import movies from "@/data/movies.json";
 import { slugToTag } from "@/lib/tags";
 
@@ -28,6 +29,7 @@ export default function Home() {
       </Head>
       <main className="min-h-screen">
         <Header showTagline />
+        <SpiritTv />
         <FilterBar selectedSlugs={selectedSlugs} count={filteredMovies.length} />
         <div className="px-6 pb-16 sm:px-10">
           <div className="flex flex-wrap justify-center gap-5 transition-all duration-300">
