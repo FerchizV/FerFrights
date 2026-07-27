@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import { Playfair_Display, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { LanguageProvider } from "@/context/LanguageContext";
 
 const playfairDisplay = Playfair_Display({
@@ -21,6 +22,7 @@ export default function App({ Component, pageProps }) {
       <LanguageProvider>
         <Component {...pageProps} />
       </LanguageProvider>
+      <Analytics />
     </div>
   );
 }
