@@ -6,6 +6,7 @@ export default function MovieCard({ movie }) {
   return (
     <Link
       href={`/movie/${movie.id}`}
+      onClick={() => sessionStorage.setItem("ferfrights-came-from-home", "1")}
       className="group flex flex-col items-center p-3 text-center"
     >
       <div className="hover-lift relative aspect-square w-full max-w-[140px] rounded-lg">
